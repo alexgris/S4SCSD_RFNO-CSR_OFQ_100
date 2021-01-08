@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestNG_Suite1" verbose="1" thread-count="1" parallel="none">
+
+    <!-- TARGET SYSTEM/CLIENT PARAMETERS - Please, enter required parameteres here  -->
+    <parameter name="target_System_Client" value="OFQ_100"/> <!-- Allowed values: "OGQ_100", "OFQ_100" -->
+
+
+    <!-- EDITABLE ENTRY PARAMETERS - Please, enter required parameteres here  -->
+    <parameter name="browser" value="chrome" /> <!-- Allowed values: "firefox", "ie", "chrome" -->
+    <parameter name="input_PurchasingOrganization" value="GPUR"/>
+    <parameter name="input_PurchasingGroup" value="GPU"/>
+    <parameter name="input_SupplyingPlant" value="GP01"/>
+
+    <parameter name="item_Type_1" value="RFNO_CSR"/>
+    <parameter name="item_Type_2" value="RCS"/>
+
+
+    <parameter name="CSR_Group_ID" value="CSR - DNT"/>
+    <parameter name="input_OrderType" value="OTA"/>
+    <parameter name="input_SalesOrg" value="GNSO"/>
+    <parameter name="input_DistrChannel" value="G1"/>
+    <parameter name="input_Division" value="G1"/>
+    <parameter name="input_CustValue" value="OGSD_01"/>
+    <parameter name="cell_Material_SO" value="OGSD_100"/>
+    <parameter name="cell_Qty_SO" value="100"/>
+    <parameter name="cell_Plant_SO" value="GP01"/>
+    <parameter name="cell_StorgLocatn_SO" value="G1L1"/>
+    <parameter name="cell_NetPrice_SO" value="10"/>
+
+    <parameter name="cell_ReferenceItem" value="000010"/>
+    <parameter name="cell_Material" value="OGSD_100"/>
+    <parameter name="cell_MaterialDescription" value="Gasoil"/>
+    <parameter name="cell_Qty" value="100,000"/>
+    <parameter name="cell_Plant" value="GP01"/>
+    <parameter name="cell_StorgLocatn" value="G1L1"/>
+    <parameter name="cell_ValtnType" value="UNTAX"/>
+    <parameter name="cell_HandlingType" value="02"/>
+
+
+   <!-- <parameter name="input_SupplyPlant" value="GP02" />
+    <parameter name="input_PurchasingGroup" value="GPU" />
+    <parameter name="input_PurchasingOrganization" value="GPUR" />-->
+    <parameter name="input_SlockOfStockTransfer" value="G1LT" />
+
+
+
+
+    <!-- AUTOCOMPLETE PARAMETERS - Please, enter expected parameteres here  -->
+    <parameter name="auto_cell_MaterialDescription" value="Gasoil"/>
+    <parameter name="auto_cell_BaseUnitOfMeasure" value="L15"/>
+
+    <!-- FIREFOX PROFILE - Please, create a separate firefox profile, import SAP certificate into it and use the profile's name as a value - FYI: https://www.wikihow.com/Create-a-Firefox-Profile -->
+    <parameter name="FireFoxProfileName" value="DC_CSN_Profile"/>
+
+
+
+
+
+    <!-- TEST #1 -->
+       <test name="S4SCSD RFNO - CSR" group-by-instances="true" preserve-order="true">
+
+        <classes>
+            <class name="org.project.Test_Cases">
+
+                <methods>
+                    <!--<exclude name="brokenTests"  /> -->
+
+                    <include name="open_RFNO_CSR_Page_Testing"/>
+                    <include name="findAndSelectGroupInLocator_Testing"/>
+                    <include name="prior_CSR_Analysis_Results_Testing"/>
+                    <include name="readAnalysisAndLogTables_beforeProcessing_Testing"/>
+                    <include name="make_Postprocessing_Testing"/>
+                    <include name="finalize_CompareNewDocumentsWithOld_Testing"/>
+
+
+                </methods>
+
+            </class>
+        </classes>
+
+    </test>
+
+
+</suite>
