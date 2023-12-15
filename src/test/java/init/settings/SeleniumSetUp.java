@@ -5,7 +5,6 @@ import org.openqa.selenium.UnexpectedAlertBehaviour;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.firefox.FirefoxProfile;
@@ -13,16 +12,16 @@ import org.openqa.selenium.firefox.internal.ProfilesIni;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.logging.LogType;
 import org.openqa.selenium.logging.LoggingPreferences;
-import org.openqa.selenium.opera.OperaDriver;
 import org.openqa.selenium.phantomjs.PhantomJSDriver;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Optional;
-import org.testng.annotations.Parameters;
+import org.testng.annotations.*;
 
 import java.io.File;
+import java.io.IOException;
+import java.util.Iterator;
+import java.util.Scanner;
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
 import java.util.logging.Level;
 
@@ -44,6 +43,28 @@ public class SeleniumSetUp {
 
         // If the browser is Chrome, then do this
         if (browser.equalsIgnoreCase("chrome")) {
+
+            //String command = "taskkill /IM chromedriver.exe /T /F";
+            String command2 = "taskkill /IM chrome.exe /T /F";
+
+            try
+            {
+                Process process = Runtime.getRuntime().exec(command2);
+
+                Scanner kb = new Scanner(process.getInputStream());
+
+            } catch (IOException e)
+            {
+                e.printStackTrace();
+            }
+
+          /*  try {
+                Process process = Runtime.getRuntime().exec("cmd /c start cmd.exe /K " + command2);
+
+            } catch (IOException e) {
+                e.printStackTrace();
+            }*/
+
             File driverFile = new File("C://SeleniumWebDrivers//Chrome//chromedriver.exe");
             System.setProperty("webdriver.chrome.driver", driverFile.getAbsolutePath());
 
@@ -142,60 +163,11 @@ public class SeleniumSetUp {
 
 
             //Instantiating IE driver with the list of Desired Capabilities
-             driver = new InternetExplorerDriver(ieCaps);
+            driver = new InternetExplorerDriver(ieCaps);
             driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
             // If the browser should not open and tests need to be run in the background, then do this
-        }else if (browser.equalsIgnoreCase("edge")) {
-
-            //Start MS Edge browser
-            //Initialize IE and IEDriver and set path to IEDriverServer.exe on local box
-            File driverFile = new File("C://SeleniumWebDrivers//Edge//msedgedriver.exe");
-            System.setProperty("webdriver.edge.driver", driverFile.getAbsolutePath());
-
-            //Instantiating Desired Capabilities on IE11
-            DesiredCapabilities ieCaps = DesiredCapabilities.edge();
-
-            ieCaps.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
-            ieCaps.internetExplorer().setCapability("ignoreProtectedModeSettings", true);
-            ieCaps.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
-            ieCaps.setJavascriptEnabled(true);
-            ieCaps.setCapability("requireWindowFocus", true);
-            ieCaps.setCapability("enablePersistentHover", false);
-            //Clear the cache, cookies, history, and saved form data. Clears for all running instances of IE, including those started manually.
-            ieCaps.setCapability("edge.ensureCleanSession", true);
-
-
-            //Instantiating IE driver with the list of Desired Capabilities
-            driver = new EdgeDriver(ieCaps);
-            driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-
-            // If the browser should not open and tests need to be run in the background, then do this
-        }else if (browser.equalsIgnoreCase("opera")) {
-
-            //Start MS Edge browser
-            //Initialize IE and IEDriver and set path to IEDriverServer.exe on local box
-            File driverFile = new File("C://SeleniumWebDrivers//Opera//operadriver.exe");
-            System.setProperty("webdriver.opera.driver", driverFile.getAbsolutePath());
-
-
-            DesiredCapabilities capabilities = new DesiredCapabilities();
-            capabilities.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
-            capabilities.internetExplorer().setCapability("ignoreProtectedModeSettings", true);
-            capabilities.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
-            capabilities.setJavascriptEnabled(true);
-            capabilities.setCapability("requireWindowFocus", true);
-            capabilities.setCapability("enablePersistentHover", false);
-            //Clear the cache, cookies, history, and saved form data. Clears for all running instances of IE, including those started manually.
-            capabilities.setCapability("edge.ensureCleanSession", true);
-
-
-            //Instantiating IE driver with the list of Desired Capabilities
-            driver = new OperaDriver(capabilities);
-            driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-
-            // If the browser should not open and tests need to be run in the background, then do this
-        }else if (browser.equalsIgnoreCase("headless")) {
+        } else if (browser.equalsIgnoreCase("headless")) {
 
             // Declaring and initialising the HtmlUnitWebDriver
          /*   HtmlUnitDriver unitDriver = new HtmlUnitDriver(BrowserVersion.BEST_SUPPORTED);
@@ -213,23 +185,71 @@ public class SeleniumSetUp {
     @AfterClass
     public void cleanUp() {
 
-       /* Test_Cases testCases = new Test_Cases(); //Instantiating object of "Test_Cases" class
-
-        testCases.insertLinksIntoLogFile();*/
-
         driver.manage().deleteAllCookies();
         // driver.close(); //close the current browser window
-        driver.quit(); //quit the whole browser session along with all the associated browser windows, tabs and pop-ups.
+        // driver.quit(); //quit the whole browser session along with all the associated browser windows, tabs and pop-ups.
+
 
     }
 
 
- /*   @AfterSuite
-  public static void tearDown() {
-        driver.manage().deleteAllCookies();
-        driver.close(); //close the current browser window
-        driver.quit (); //quit the whole browser session along with all the associated browser windows, tabs and pop-ups.
-       }*/
+    @AfterSuite
+    public static void tearDown() {
+
+        try {
+     /*   String parentTab = driver.getWindowHandle();
+        System.out.println("Current Handle TAB: " + parentTab);
+
+        //getting all the handles currently available
+        Set<String> handles = driver.getWindowHandles();
+        System.out.println("Number of currently opened Web-Browser tabs: " + handles.size());
+
+        for (String actual : handles) {
+            System.out.println("Name of currently opened Tab: " + actual);
+
+            driver.switchTo().window(actual).close();
+            System.out.println("Browser's Tab " + actual + " was closed.");
+
+        }*/
+
+            // It will return the parent window name as a String
+            String parent = driver.getWindowHandle();
+            System.out.println("PARENT TAB: " + parent);
+            System.out.println("Name of the PARENT TAB: " + driver.switchTo().window(parent).getTitle());
+            String parentTab_name = driver.switchTo().window(parent).getTitle();
+
+            // This will return the number of windows opened by Webdriver and will return Set of St//rings
+            Set<String> s1 = driver.getWindowHandles();
+            System.out.println("Number of currently opened Web-Browser tabs: " + s1.size());
+
+            // Now we will iterate using Iterator
+            Iterator<String> I1 = s1.iterator();
+
+            while (I1.hasNext()) {
+
+                String child_window = I1.next();
 
 
+                // Here we will compare if parent window is not equal to child window then we will close
+                if (!parent.equals(child_window)) {
+                    driver.switchTo().window(child_window);
+
+                    String childTab_name = driver.switchTo().window(child_window).getTitle();
+                    System.out.println("Name of the CHILD TAB: " + childTab_name);
+
+                    driver.close();
+                    System.out.println("CHILD TAB closed : " + childTab_name);
+                }
+
+            }
+
+            //Close the Parent TAB
+            driver.switchTo().window(parent);
+            driver.close();
+            System.out.println("PARENT TAB closed : " + parentTab_name);
+
+        }catch(Exception e){
+            System.out.println("Error while closing tabs: " + e.toString());
+        }
+    }
 }

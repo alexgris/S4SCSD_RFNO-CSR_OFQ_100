@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-08-14T13:07:53 CEST" name="TestNG_Suite1" finished-at="2020-08-14T13:10:06 CEST" duration-ms="132608">
+  <suite started-at="2023-02-27T11:21:57 CET" name="TestNG_Suite1" finished-at="2023-02-27T11:23:34 CET" duration-ms="96812">
     <groups>
     </groups>
-    <test started-at="2020-08-14T13:07:53 CEST" name="S4SCSD RFNO - CSR" finished-at="2020-08-14T13:10:06 CEST" duration-ms="132608">
+    <test started-at="2023-02-27T11:21:57 CET" name="S4SCSD RFNO - CSR" finished-at="2023-02-27T11:23:34 CET" duration-ms="96812">
       <class name="org.project.Test_Cases">
-        <test-method is-config="true" signature="preTestSettinngs()[pri:0, instance:org.project.Test_Cases@7c9d8e2]" started-at="2020-08-14T13:07:53 CEST" name="preTestSettinngs" finished-at="2020-08-14T13:07:53 CEST" duration-ms="38" status="PASS">
+        <test-method is-config="true" signature="preTestSettinngs()[pri:0, instance:org.project.Test_Cases@7530ad9c]" started-at="2023-02-27T11:21:57 CET" name="preTestSettinngs" finished-at="2023-02-27T11:21:57 CET" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preTestSettinngs -->
-        <test-method is-config="true" signature="preTestConfigurations()[pri:0, instance:org.project.Test_Cases@7c9d8e2]" started-at="2020-08-14T13:07:53 CEST" name="preTestConfigurations" finished-at="2020-08-14T13:07:53 CEST" duration-ms="31" status="PASS">
+        <test-method is-config="true" signature="preTestConfigurations()[pri:0, instance:org.project.Test_Cases@7530ad9c]" started-at="2023-02-27T11:21:57 CET" name="preTestConfigurations" finished-at="2023-02-27T11:21:57 CET" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preTestConfigurations -->
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:org.project.Test_Cases@7c9d8e2]" started-at="2020-08-14T13:07:53 CEST" name="setUp" finished-at="2020-08-14T13:08:05 CEST" duration-ms="11791" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:org.project.Test_Cases@7530ad9c]" started-at="2023-02-27T11:21:57 CET" name="setUp" finished-at="2023-02-27T11:22:00 CET" duration-ms="2213" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -31,18 +31,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="open_RFNO_CSR_Page_Testing(java.lang.String)[pri:0, instance:org.project.Test_Cases@7c9d8e2]" started-at="2020-08-14T13:08:05 CEST" name="open_RFNO_CSR_Page_Testing" finished-at="2020-08-14T13:08:19 CEST" duration-ms="13830" status="PASS">
+        <test-method signature="open_RFNO_CSR_Page_Testing(java.lang.String)[pri:0, instance:org.project.Test_Cases@7530ad9c]" started-at="2023-02-27T11:22:00 CET" name="open_RFNO_CSR_Page_Testing" finished-at="2023-02-27T11:22:08 CET" duration-ms="8400" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[OGQ_100]]>
+                <![CDATA[OFQ_100]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open_RFNO_CSR_Page_Testing -->
-        <test-method signature="findAndSelectGroupInLocator_Testing(java.lang.String)[pri:0, instance:org.project.Test_Cases@7c9d8e2]" started-at="2020-08-14T13:08:19 CEST" name="findAndSelectGroupInLocator_Testing" finished-at="2020-08-14T13:08:33 CEST" depends-on-methods="org.project.Test_Cases.open_RFNO_CSR_Page_Testing" duration-ms="14470" status="PASS">
+        <test-method signature="findAndSelectGroupInLocator_Testing(java.lang.String)[pri:0, instance:org.project.Test_Cases@7530ad9c]" started-at="2023-02-27T11:22:08 CET" name="findAndSelectGroupInLocator_Testing" finished-at="2023-02-27T11:22:21 CET" depends-on-methods="org.project.Test_Cases.open_RFNO_CSR_Page_Testing" duration-ms="12532" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,27 +53,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findAndSelectGroupInLocator_Testing -->
-        <test-method signature="prior_CSR_Analysis_Results_Testing()[pri:0, instance:org.project.Test_Cases@7c9d8e2]" started-at="2020-08-14T13:08:33 CEST" name="prior_CSR_Analysis_Results_Testing" finished-at="2020-08-14T13:08:45 CEST" depends-on-methods="org.project.Test_Cases.findAndSelectGroupInLocator_Testing" duration-ms="11390" status="PASS">
+        <test-method signature="prior_CSR_Analysis_Results_Testing()[pri:0, instance:org.project.Test_Cases@7530ad9c]" started-at="2023-02-27T11:22:21 CET" name="prior_CSR_Analysis_Results_Testing" finished-at="2023-02-27T11:22:32 CET" depends-on-methods="org.project.Test_Cases.findAndSelectGroupInLocator_Testing" duration-ms="11428" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- prior_CSR_Analysis_Results_Testing -->
-        <test-method signature="readAnalysisAndLogTables_beforeProcessing_Testing()[pri:0, instance:org.project.Test_Cases@7c9d8e2]" started-at="2020-08-14T13:08:45 CEST" name="readAnalysisAndLogTables_beforeProcessing_Testing" finished-at="2020-08-14T13:09:01 CEST" depends-on-methods="org.project.Test_Cases.prior_CSR_Analysis_Results_Testing" duration-ms="16143" status="PASS">
+        <test-method signature="readAnalysisAndLogTables_beforeProcessing_Testing()[pri:0, instance:org.project.Test_Cases@7530ad9c]" started-at="2023-02-27T11:22:32 CET" name="readAnalysisAndLogTables_beforeProcessing_Testing" finished-at="2023-02-27T11:22:45 CET" depends-on-methods="org.project.Test_Cases.prior_CSR_Analysis_Results_Testing" duration-ms="12544" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- readAnalysisAndLogTables_beforeProcessing_Testing -->
-        <test-method signature="make_Postprocessing_Testing()[pri:0, instance:org.project.Test_Cases@7c9d8e2]" started-at="2020-08-14T13:09:01 CEST" name="make_Postprocessing_Testing" finished-at="2020-08-14T13:09:23 CEST" depends-on-methods="org.project.Test_Cases.readAnalysisAndLogTables_beforeProcessing_Testing" duration-ms="22636" status="PASS">
+        <test-method signature="make_Postprocessing_Testing()[pri:0, instance:org.project.Test_Cases@7530ad9c]" started-at="2023-02-27T11:22:45 CET" name="make_Postprocessing_Testing" finished-at="2023-02-27T11:23:05 CET" depends-on-methods="org.project.Test_Cases.readAnalysisAndLogTables_beforeProcessing_Testing" duration-ms="20255" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- make_Postprocessing_Testing -->
-        <test-method signature="finalize_CompareNewDocumentsWithOld_Testing()[pri:0, instance:org.project.Test_Cases@7c9d8e2]" started-at="2020-08-14T13:09:23 CEST" name="finalize_CompareNewDocumentsWithOld_Testing" finished-at="2020-08-14T13:09:59 CEST" depends-on-methods="org.project.Test_Cases.make_Postprocessing_Testing" duration-ms="36067" status="PASS">
+        <test-method signature="finalize_CompareNewDocumentsWithOld_Testing()[pri:0, instance:org.project.Test_Cases@7530ad9c]" started-at="2023-02-27T11:23:05 CET" name="finalize_CompareNewDocumentsWithOld_Testing" finished-at="2023-02-27T11:23:34 CET" depends-on-methods="org.project.Test_Cases.make_Postprocessing_Testing" duration-ms="29329" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finalize_CompareNewDocumentsWithOld_Testing -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:org.project.Test_Cases@7c9d8e2]" started-at="2020-08-14T13:09:59 CEST" name="cleanUp" finished-at="2020-08-14T13:10:06 CEST" duration-ms="6160" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:org.project.Test_Cases@7530ad9c]" started-at="2023-02-27T11:23:34 CET" name="cleanUp" finished-at="2023-02-27T11:23:34 CET" duration-ms="58" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="insertLinksIntoLogFile(java.lang.String, java.lang.String)[pri:0, instance:org.project.Test_Cases@7c9d8e2]" started-at="2020-08-14T13:10:06 CEST" name="insertLinksIntoLogFile" finished-at="2020-08-14T13:10:06 CEST" duration-ms="20" status="PASS">
+        <test-method is-config="true" signature="insertLinksIntoLogFile(java.lang.String, java.lang.String)[pri:0, instance:org.project.Test_Cases@7530ad9c]" started-at="2023-02-27T11:23:34 CET" name="insertLinksIntoLogFile" finished-at="2023-02-27T11:23:34 CET" duration-ms="7" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -89,6 +89,10 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- insertLinksIntoLogFile -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.project.Test_Cases@7530ad9c]" started-at="2023-02-27T11:23:34 CET" name="tearDown" finished-at="2023-02-27T11:23:35 CET" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- org.project.Test_Cases -->
     </test> <!-- S4SCSD RFNO - CSR -->
   </suite> <!-- TestNG_Suite1 -->

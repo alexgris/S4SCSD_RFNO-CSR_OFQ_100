@@ -22,15 +22,15 @@ public class Locator_DocCompare extends PageObject {
     private WebElement btn_LocatorContainer;
 
     //Locating "Locator" button in the toolbar
-    @FindBy(xpath = "//span[contains(text(), 'Locator')]")
+    @FindBy(xpath = "//div[contains(@title, 'Locator On/Off')]")
     private WebElement btn_Locator;
 
     //Locating "Document Number" dropdown in "Locator" panel
-    @FindBy(xpath = "//span[contains (text(), 'Search Criteria')]/ancestor::table[@class='lsPanel urHtmlTableReset']/tbody/tr[2]/td/div/table/tbody/tr[3]/td[1]/table/tbody/tr/td[1]/input")
+    @FindBy(xpath = "//*[contains (text(), 'Search Criteria')]/ancestor::table[contains (@ct, 'P')][contains (@class, 'urHtmlTableReset')]/tbody/tr[2]/td/div/table/tbody/tr[3]/td[1]/table/tbody/tr/td[1]/input")
     private WebElement dropdown_DocNumber;
 
     //Locating "AttributeSelection" dropdown in "Locator" panel
-    @FindBy(xpath = "//span[contains (text(), 'Search Criteria')]/ancestor::table[@class='lsPanel urHtmlTableReset']/tbody/tr[2]/td/div/table/tbody/tr[3]/td[1]/table/tbody/tr/td[1]/input")
+    @FindBy(xpath = "//*[contains (text(), 'Search Criteria')]/ancestor::table[contains (@ct, 'P')][contains (@class, 'urHtmlTableReset')]/tbody/tr[2]/td/div/table/tbody/tr[3]/td[1]/table/tbody/tr/td[1]/input")
     private WebElement dropdown_AttributeSelection;
 
     //Locating "Document Number" value in the "Document Number" dropdown
@@ -58,17 +58,17 @@ public class Locator_DocCompare extends PageObject {
     private WebElement panel_Locator;
 
     //Locating "Document FROM" input
-    @FindBy(xpath = "//span[contains (text(), 'Search Criteria')]/ancestor::table[@class='lsPanel urHtmlTableReset']/tbody/tr[2]/td/div/table/tbody/tr[3]/td[3]/table/tbody/tr/td[1]/input")
+    @FindBy(xpath = "//span[contains (text(), 'Search Criteria')]/ancestor::table[contains (@ct, 'P')][contains (@class, 'urHtmlTableReset')]/tbody/tr[2]/td/div/table/tbody/tr[3]/td[3]/table/tbody/tr/td[1]/input")
     private WebElement input_DocumentFROM;
 
     //Locating "Document TO" input
-    @FindBy(xpath = "//span[contains (text(), 'Search Criteria')]/ancestor::table[@class='lsPanel urHtmlTableReset']/tbody/tr[2]/td/div/table/tbody/tr[3]/td[4]/table/tbody/tr/td/div/table/tbody/tr/td[2]/table/tbody/tr/td/input")
+    @FindBy(xpath = "//span[contains (text(), 'Search Criteria')]/ancestor::table[contains (@ct, 'P')][contains (@class, 'urHtmlTableReset')]/tbody/tr[2]/td/div/table/tbody/tr[3]/td[4]/table/tbody/tr/td/div/table/tbody/tr/td[2]/table/tbody/tr/td/input")
     //@FindBy(xpath = "//td[contains (@ct, 'MLC')][contains (@class, 'lsContainerCell lsContainerCellVAlign--top urLayoutLRNoPad')]/table[contains (@class, 'urEdf2WhlTbl')]/descendant::input[contains (@class, 'urEdf2TxtEnbl urEdf2TxtRadius urBorderBox lsControl--explicitwidth')][contains (@title, 'Document Number- Upper Interval Limit')]")
     private WebElement input_DocumentTO;
 
     //Locating "Search" button
     //@FindBy(xpath = "//span[contains (text(), 'Search Criteria')]/ancestor::table[@class='lsPanel urHtmlTableReset']/tbody/tr[2]/td/div/table/tbody/tr[10]/td[1]/div/div/table/tbody/tr[2]/td[1]/div/span/span[1]/div/span/span[contains(@title, 'Search ')]")
-    @FindBy(xpath = "//span[contains (text(), 'Search Criteria')]/ancestor::table[@class='lsPanel urHtmlTableReset']/descendant::div[contains(@title, 'Search')]")
+    @FindBy(xpath = "//*[contains (text(), 'Search Criteria')]/ancestor::table[contains (@ct, 'P')][contains (@class, 'urHtmlTableReset')]/descendant::div[contains(@title, 'Search')]")
     private WebElement btn_Search;
 
     //Locating "Personalize" button on "Localization" panel
@@ -734,7 +734,7 @@ public class Locator_DocCompare extends PageObject {
                 //Exit iframe to have access to the main window's web-elements
                // driver.switchTo().defaultContent();
 
-                WebElement btn_SetToDefault_Persnlzd_Locator = driver.findElement(By.xpath("//div[contains (text(), 'Settings')]/ancestor::div[contains (@class, 'urPWOuterBorder lsPopupWindow lsPopupWindow--dialog')][contains (@ct, 'PW')]/div/div[4][contains (@class, 'sapContrast sapContrastPlus lsTwhlFooter lsTbarLarge urPWFooterBottomLine')]/descendant::span[contains (text(), 'Reset to Default')]/ancestor::div[1]"));
+                WebElement btn_SetToDefault_Persnlzd_Locator = driver.findElement(By.xpath("//div[contains (text(), 'Settings')]/ancestor::div[contains (@class, 'lsPopupWindow lsPopupWindow--dialog')][contains (@ct, 'PW')]/div/div[4][contains (@class, 'urPWFooterBottomLine')]/descendant::*[contains (text(), 'Reset to Default')]/ancestor::div[1]"));
 
                 String btn_Status = btn_SetToDefault_Persnlzd_Locator.getAttribute("class");
                 System.out.println("Class value for 'Set to Default' button: " + btn_Status);
@@ -809,12 +809,12 @@ public class Locator_DocCompare extends PageObject {
 
             if (Test_Cases.conf_SystemClient.equals("OFQ_100")) {
 
-                WebElement btn_Personalize_LocatorPnl_CSR = driver.findElement(By.xpath("//span[contains (text(), 'Results List: 0 CSR Groups')]/ancestor::table[contains (@class, 'urSTCS urST3WhlBrdH urST3WhlNoTit urST5SelColUiGeneric urHtmlTableReset')][contains (@ct, 'STCS')]/thead/tr[2]/descendant::div[contains (@title, 'Settings')]"));
+                WebElement btn_Personalize_LocatorPnl_CSR = driver.findElement(By.xpath("//*[contains (text(), 'Results List: 0 CSR Groups')]/ancestor::table[contains (@shscrollcontentid, 'mrss-hdr-none-content')][contains (@ct, 'STCS')]/thead/descendant::div[contains (@title, 'Settings')]"));
 
                 //js.executeScript("arguments[0].click();", btn_Personalize_DC);
                 btn_Personalize_LocatorPnl_CSR.click();
 
-                waitTillDescendentElementsAvailable(5, "//span[contains (text(), 'Displayed Columns')]/ancestor::table[contains (@class, 'urSTCS urST3WhlBrd urST3WhlNoTit urST5SelColUiGeneric urHtmlTableReset')]/tbody[contains (@id, 'content')]/tr[2]/td[2]/descendant::*", "PERSONALIZATION POPUP");
+                waitTillDescendentElementsAvailable(5, "//div[contains (@id, 'ALL_POPUPS')]/descendant::*[contains (text(), 'Displayed Columns')]/ancestor::table[contains (@class, 'urST5SelColUiGeneric')]/tbody[contains (@id, 'content')]/tr[2]/td[2]/descendant::*", "PERSONALIZATION POPUP");
             }
             if (Test_Cases.conf_SystemClient.equals("OGQ_100")) {
 
@@ -1085,7 +1085,7 @@ public class Locator_DocCompare extends PageObject {
 
             logger.info("The 'SEARCH' button was SUCCESSFULLY clicked on.");
 
-             explicitWaitsUntilElementPresent(10, "//span[contains (text(), 'Results List:')]/ancestor::table[@class='urSTCS urST3WhlBrdH urST3WhlNoTit urST5SelColUiGeneric urHtmlTableReset'][contains (@ct, 'STCS')]/tbody[contains(@id, 'content')]/tr[2][contains(@vpm, 'mrss-cont')]/td[2]/div/div[2]/descendant::tr[contains (@class, 'urST4RowFirstVisible')][1]", "RESULTS LIST TABLE");
+             explicitWaitsUntilElementPresent(10, "//*[contains (text(), 'Results List:')]/ancestor::table[contains (@shscrollcontentid, 'mrss-hdr-none-content')][contains (@ct, 'STCS')]/tbody[contains(@id, 'content')]/tr[contains(@vpm, 'mrss-cont')]/td[2]/div/div[2]/descendant::tr[contains (@class, 'urST4RowFirstVisible')][1]", "RESULTS LIST TABLE");
 
         } catch (Exception e) {
             logger.error("Error while clicking on 'SEARCH' button or fetching searched documents into Results List: " + e.getMessage());
@@ -1190,7 +1190,7 @@ public class Locator_DocCompare extends PageObject {
         try {
             //Get all non-empty rows in the "Search Results" table
             //OFQ//List<WebElement> available_RowsInSearchResultsTable = driver.findElements(By.ByXPath.xpath("//div[contains (@id, '-mrss-cont-none')][contains (@hpm, 'none')][contains (@vpm, 'mrss-cont')][contains (@segcc, '7')][contains (@segrc, '2')][contains (@segori, '1')][contains (@segoci, '1')][@class=' lsSTEmptySpace']/div[@bisposelement='X'][@class='urBorderBox']/table[@class='urST5OuterOffBrd urBorderBox'][contains(@id,'mrss-cont-none-content')]/tbody/descendant::tr"));
-            List<WebElement> available_RowsInSearchResultsTable = driver.findElements(By.ByXPath.xpath("//span[contains (text(), 'Results List:')]/ancestor::table[@class='urSTCS urST3WhlBrdH urST3WhlNoTit urST5SelColUiGeneric urHtmlTableReset'][contains (@ct, 'STCS')]/descendant::div[contains (@bisposelement, 'X')][contains (@class, 'urBorderBox')]/table[@class='urST5OuterOffBrd urBorderBox'][contains(@id,'mrss-cont-none-content')]/tbody/descendant::tr"));
+            List<WebElement> available_RowsInSearchResultsTable = driver.findElements(By.ByXPath.xpath("//*[contains (text(), 'Results List:')]/ancestor::table[contains (@class, 'urST5SelColUiGeneric')][contains (@ct, 'STCS')]/descendant::div[contains (@bisposelement, 'X')][contains (@class, 'urBorderBox')]/table[contains (@class, 'urST5OuterOffBrd urBorderBox')][contains(@id,'mrss-cont-none-content')]/tbody/descendant::tr"));
 
             int number_Rows = available_RowsInSearchResultsTable.size();
             System.out.println("Number of non-empty rows in the SEARCH RESULTS table: " + number_Rows);
@@ -1200,7 +1200,7 @@ public class Locator_DocCompare extends PageObject {
 
                 //Get all columns in "Search Results" table
                 //OFQ//List<WebElement> available_ColumnsInSearchResultsTable = driver.findElements(By.ByXPath.xpath("//div[contains (@id, '-mrss-cont-none')][contains (@hpm, 'none')][contains (@vpm, 'mrss-cont')][contains (@segcc, '7')][contains (@segrc, '2')][contains (@segori, '1')][contains (@segoci, '1')][@class=' lsSTEmptySpace']/ancestor::tbody[contains (@id, '-content')]/tr[1]/td[2]/div/div[@bisposelement='X'][@class='urBorderBox']/table[@class='urST5OuterOffBrd urBorderBox lsSTOuterRightBorder'][contains(@id,'mrss-hdr-none-content')]/tbody/tr/descendant::th"));
-                List<WebElement> available_ColumnsInSearchResultsTable = driver.findElements(By.ByXPath.xpath("//span[contains (text(), 'Results List:')]/ancestor::table[@class='urSTCS urST3WhlBrdH urST3WhlNoTit urST5SelColUiGeneric urHtmlTableReset'][contains (@ct, 'STCS')]/descendant::tr[contains(@vpm,'mrss-hdr')]/descendant::div[@bisposelement='X'][@class='urBorderBox']/table[contains(@id,'mrss-hdr-none-content')]/tbody/tr/descendant::th"));
+                List<WebElement> available_ColumnsInSearchResultsTable = driver.findElements(By.ByXPath.xpath("//*[contains (text(), 'Results List:')]/ancestor::table[contains (@class, 'urST5SelColUiGeneric')][contains (@ct, 'STCS')]/descendant::tr[contains(@vpm,'mrss-hdr')]/descendant::div[@bisposelement='X'][contains (@class, 'urBorderBox')]/table[contains(@id,'mrss-hdr-none-content')]/tbody/tr/descendant::th"));
 
                 int number_Columns = available_ColumnsInSearchResultsTable.size();
                 System.out.println("Number of columns in the SEARCH RESULTS table: " + number_Columns);
@@ -1241,7 +1241,7 @@ public class Locator_DocCompare extends PageObject {
 
                                         //Find input field below the "Document Status" column title in row #1 and retrieve the status value
                                         //OFQ//WebElement field_DocStatus1 = driver.findElement(By.ByXPath.xpath("//div[contains (@id, '-mrss-cont-none')][contains (@hpm, 'none')][contains (@vpm, 'mrss-cont')][contains (@segcc, '7')][contains (@segrc, '2')][contains (@segori, '1')][contains (@segoci, '1')][@class=' lsSTEmptySpace']/div[@bisposelement='X'][@class='urBorderBox']/table[@class='urST5OuterOffBrd urBorderBox'][contains(@id,'-mrss-cont-none-content')]/tbody/tr[1]/td[" + ColumnCount + "]/div/span/img"));
-                                        List<WebElement> fields_GroupID_Column = driver.findElements(By.ByXPath.xpath("//span[contains (text(), 'Results List:')]/ancestor::table[@class='urSTCS urST3WhlBrdH urST3WhlNoTit urST5SelColUiGeneric urHtmlTableReset'][contains (@ct, 'STCS')]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[2]/descendant::div[@bisposelement='X'][@class='urBorderBox']/table[@class='urST5OuterOffBrd urBorderBox'][contains(@id, '-mrss-cont-none-content')]/tbody/descendant::tr"));
+                                        List<WebElement> fields_GroupID_Column = driver.findElements(By.ByXPath.xpath("//*[contains (text(), 'Results List:')]/ancestor::table[contains (@class, 'urST5SelColUiGeneric')][contains (@ct, 'STCS')]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[2]/descendant::div[@bisposelement='X'][contains (@class, 'urBorderBox')]/table[contains (@class, 'urST5OuterOffBrd urBorderBox')][contains(@id, '-mrss-cont-none-content')]/tbody/descendant::tr"));
                                         //  List<WebElement> fields_GroupID_Column = driver.findElements(By.ByXPath.xpath("//span[contains (text(), 'Results List:')]/ancestor::table[@class='urSTCS urST3WhlBrdH urST3WhlNoTit urST5SelColUiGeneric urHtmlTableReset'][contains (@ct, 'STCS')]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[2]/descendant::div[@bisposelement='X'][@class='urBorderBox']/table[@class='urST5OuterOffBrd urBorderBox'][contains(@id, '-mrss-cont-none-content')]/tbody/descendant::tr[1]/td[" + ColumnCount + "]/div/descendant::img"));
 
                                         int numberOfRows = fields_GroupID_Column.size();
@@ -1479,13 +1479,13 @@ public class Locator_DocCompare extends PageObject {
     public void check_SearchCriteriaToggler_Expanded() {
 
         try {
-            WebElement toggler_SearchCriteria = driver.findElement(By.ByXPath.xpath("//div[contains (@id, 'sapwd_main_window_root')]/div[1]/table/tbody/tr[3]/ descendant::table[contains (@class, 'urSpT')]/tbody/tr/td[1]/descendant::span[contains (text(), 'Search Criteria')]/ancestor::div[1]/span[1]"));
+            WebElement toggler_SearchCriteria = driver.findElement(By.ByXPath.xpath("//div[contains (@id, 'sapwd_main_window_root')]/div[1]/table/tbody/tr[3]/descendant::table[contains (@class, 'urSpT')]/tbody/tr/td[1]/descendant::*[contains (text(), 'Search Criteria')]/ancestor::div[1]/*[1]"));
 
-            String displayStatus = toggler_SearchCriteria.getAttribute("title");
+            String displayStatus = toggler_SearchCriteria.getAttribute("class");
             System.out.println("The toggler on the 'Search Criteria' has the status of '"+displayStatus.toUpperCase()+"'.");
 
 
-            if (displayStatus.contains("Expand")) {
+            if (displayStatus.contains("toggle-collapsed")) {
 
                 logger.warn("The SEARCH CRITERIA sub-panel is collapsed by default. It will be expanded automatically.");
 
@@ -1498,7 +1498,7 @@ public class Locator_DocCompare extends PageObject {
 
                 //wait till "Search Criteria" sub-panel gets loaded
               //  waitTillDescendentElementsAvailable(30, "//div[contains (@id, 'sapwd_main_window_root')]/div[1]/table/tbody/tr[3]/ descendant::table[contains (@class, 'urSpT')]/tbody/tr/td[1]/descendant::span[contains (text(), 'Search Criteria')]/ancestor::table[@class='lsPanel urHtmlTableReset']/tbody/tr[2]/td/div/table/tbody/tr[3]/td[1]/table/tbody/tr/td[1]/input[contains (@value, 'CSR Group ID')]", "Expanded GROUP SETTINGS panel");
-                waitTillDescendentElementsAvailable(30, "//span[contains (text(), 'Search Criteria')]/ancestor::table[@class='lsPanel urHtmlTableReset']/descendant::div[contains(@title, 'Search')]", "Expanded GROUP SETTINGS panel");
+                waitTillDescendentElementsAvailable(30, "//*[contains (text(), 'Search Criteria')]/ancestor::table[contains (@class, 'urHtmlTableReset lsControl')]/descendant::div[contains(@title, 'Search')][contains (@class, 'lsButton')]", "Expanded GROUP SETTINGS panel");
 
             }
 
@@ -1513,7 +1513,7 @@ public class Locator_DocCompare extends PageObject {
         boolean correctValue = false;
 
         try {
-            WebElement input_AttributeSelection = driver.findElement(By.ByXPath.xpath("//div[contains (@id, 'sapwd_main_window_root')]/div[1]/table/tbody/tr[3]/ descendant::table[contains (@class, 'urSpT')]/tbody/tr/td[1]/descendant::span[contains (text(), 'Search Criteria')]/ancestor::table[@class='lsPanel urHtmlTableReset']/tbody/tr[2]/td/div/table/tbody/tr[3]/td[1]/table/tbody/tr/td[1]/input[contains (@title, 'Attribute Selection')]"));
+            WebElement input_AttributeSelection = driver.findElement(By.ByXPath.xpath("//div[contains (@id, 'sapwd_main_window_root')]/div[1]/table/tbody/tr[3]/descendant::table[contains (@class, 'urSpT')]/tbody/tr/td[1]/descendant::*[contains (text(), 'Search Criteria')]/ancestor::table[1]/tbody/tr[2]/descendant::input[contains (@title, 'Attribute Selection')]"));
 
             String displayStatus = input_AttributeSelection.getAttribute("value");
             System.out.println("The 'Attribute Selection' input has the value of: '"+displayStatus.toUpperCase()+"'.");

@@ -37,7 +37,7 @@ public class ComparePostprocessingResults extends PageObject {
 
             try {
 
-                WebElement btn_StartProcessing = driver.findElement(By.ByXPath.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'urPWOuterBorder lsPopupWindow lsPopupWindow--dialog')][1]/div/div[4]/descendant::td[contains (@class, 'urPWWaveTop lsPopupWindow_Footer-buttons')]/descendant::span[contains (text(), 'Close')]/ancestor::div[1] "));
+                WebElement btn_StartProcessing = driver.findElement(By.ByXPath.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'lsPopupWindow--dialog')][1]/div/div[4]/descendant::td[contains (@class, 'lsPopupWindow_Footer-buttons')]/descendant::*[contains (text(), 'Close')]/ancestor::div[1] "));
 
                 js.executeScript("arguments[0].click();", btn_StartProcessing);
 
@@ -111,10 +111,11 @@ public class ComparePostprocessingResults extends PageObject {
                 //scroll the table all the way up to the top
                 try {
                     //scroll up the "LOG MESSAGES" table
-                    WebElement belowRows2 = driver.findElement(By.ByXPath.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'urPWOuterBorder lsPopupWindow lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[2]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[3]/descendant::tr[contains (@class, 'lsScrollbar__container--track')]/td/div[2]"));
+                    WebElement belowRows2 = driver.findElement(By.ByXPath.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[2]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[3]/div/descendant::tr[contains (@class, 'lsScrollbar__container--track')]/td/div/div[2]"));
+
                     //js.executeScript("arguments[0].scrollIntoView();", belowRows);
 
-                    WebElement panel_Height = driver.findElement(By.ByXPath.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'urPWOuterBorder lsPopupWindow lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[2]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[3]/descendant::tr[contains (@class, 'lsScrollbar__container--track')]/td"));
+                    WebElement panel_Height = driver.findElement(By.ByXPath.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[2]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[3]/descendant::tr[contains (@class, 'lsScrollbar__container--track')]/td"));
                     //js.executeScript("arguments[0].scrollIntoView();", belowRows);
                     int height = panel_Height.getSize().getHeight();
                     System.out.println("The height of the vertical scroll bar in 'LOG MESSAGES' table is: " + height);
@@ -164,10 +165,10 @@ public class ComparePostprocessingResults extends PageObject {
                 //scroll the table and count total rows to initialize array
                 try {
 
-                    WebElement scroller_DisplayedColumns = driver.findElement(By.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'urPWOuterBorder lsPopupWindow lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[2]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[3]/div/descendant::tr[contains (@class, 'lsScrollbar__container--next')]/td/div"));
+                    WebElement scroller_DisplayedColumns = driver.findElement(By.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[2]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[3]/div/descendant::tr[contains (@class, 'lsScrollbar__container--next')]/td/div"));
 
                     //check the number of TBODY elements displayed by default
-                    List<WebElement> row_Blocks = driver.findElements(By.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'urPWOuterBorder lsPopupWindow lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[2]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[2]/div/descendant::table[contains (@id, 'mrss-cont-none-content')]/child::tbody"));
+                    List<WebElement> row_Blocks = driver.findElements(By.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[2]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[2]/div/descendant::table[contains (@id, 'mrss-cont-none-content')]/child::tbody"));
                     numberOfDefaultTbodySections1 = row_Blocks.size();
                     System.out.println("Number of TBODY tags in the 'RESULTS OF CSR ANALYSIS popup -> LOG MESSAGES table': " + numberOfDefaultTbodySections1);
 
@@ -177,7 +178,7 @@ public class ComparePostprocessingResults extends PageObject {
 
 
                         //address each TBODY section in LOG table via variable
-                        WebElement elm_1_1 = driver.findElement(By.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'urPWOuterBorder lsPopupWindow lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[2]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[2]/div/descendant::table[contains (@id, 'mrss-cont-none-content')]/tbody[" + TbodySection1 + "]"));
+                        WebElement elm_1_1 = driver.findElement(By.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[2]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[2]/div/descendant::table[contains (@id, 'mrss-cont-none-content')]/tbody[" + TbodySection1 + "]"));
                         //System.out.println("Number of TBODY tags in 'DISPLAYED COLUMNS' section on PERSONALIZATION popup: " + elm_1.size());
 
                         //count rows in current TBODY section in LOG table
@@ -192,7 +193,7 @@ public class ComparePostprocessingResults extends PageObject {
                             //WebElement field_MessageText = driver.findElement(By.ByXPath.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'urPWOuterBorder lsPopupWindow lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[2]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[2]/div/descendant::table[contains (@id, 'mrss-cont-none-content')]/tbody[" + TbodySection1 + "]/tr[" + i + "]/td[" +  numMessageTextColumn + "]/div/span"));
 
                             //Wait for the next row to appear in the "MESSAGE TEXT" column
-                            waitTillElementDetected(15, "//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'urPWOuterBorder lsPopupWindow lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[2]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[2]/div/descendant::table[contains (@id, 'mrss-cont-none-content')]/tbody[" + TbodySection1 + "]/tr[" + i + "]/td[" + numMessageTextColumn + "]/div/span", "NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table");
+                            waitTillElementDetected(15, "//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[2]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[2]/div/descendant::table[contains (@id, 'mrss-cont-none-content')]/tbody[" + TbodySection1 + "]/tr[" + i + "]/td[" + numMessageTextColumn + "]/div/span", "NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table");
 
                             rowCountTextMessages1++;
 
@@ -204,7 +205,7 @@ public class ComparePostprocessingResults extends PageObject {
 
 
                         //check whether new TBODY got displayed dynamically
-                        List<WebElement> newDynamicTBODY = driver.findElements(By.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'urPWOuterBorder lsPopupWindow lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[2]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[2]/div/descendant::table[contains (@id, 'mrss-cont-none-content')]/child::tbody"));
+                        List<WebElement> newDynamicTBODY = driver.findElements(By.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[2]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[2]/div/descendant::table[contains (@id, 'mrss-cont-none-content')]/child::tbody"));
                         numberOfUpdatedTbodySections1 = newDynamicTBODY.size();
 
                         if (numberOfUpdatedTbodySections1 > numberOfDefaultTbodySections1) {
@@ -223,11 +224,10 @@ public class ComparePostprocessingResults extends PageObject {
 
 
                     //scroll down the "LOG MESSAGES" table to display the rest of the rows
-                    // WebElement belowRows = driver.findElement(By.ByXPath.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'urPWOuterBorder lsPopupWindow lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[1]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[2]/div/descendant::table[contains (@id, 'mrss-cont-none-content')]/tbody[2]"));
-                    WebElement belowRows2 = driver.findElement(By.ByXPath.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'urPWOuterBorder lsPopupWindow lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[2]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[3]/descendant::tr[contains (@class, 'lsScrollbar__container--track')]/td/div[2]"));
+                    WebElement belowRows2 = driver.findElement(By.ByXPath.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[2]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[3]/descendant::tr[contains (@class, 'lsScrollbar__container--track')]/td/div/div[2]"));
                     //js.executeScript("arguments[0].scrollIntoView();", belowRows);
 
-                    WebElement panel_Height = driver.findElement(By.ByXPath.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'urPWOuterBorder lsPopupWindow lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[2]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[3]/descendant::tr[contains (@class, 'lsScrollbar__container--track')]/td"));
+                    WebElement panel_Height = driver.findElement(By.ByXPath.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[2]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[3]/descendant::tr[contains (@class, 'lsScrollbar__container--track')]/td"));
                     //js.executeScript("arguments[0].scrollIntoView();", belowRows);
                     int height = panel_Height.getSize().getHeight();
                     System.out.println("The height of the vertical scroll bar in 'LOG MESSAGES' table is: " + height);
@@ -244,10 +244,10 @@ public class ComparePostprocessingResults extends PageObject {
                 //scroll the table and read required fields
                 try {
 
-                    WebElement scroller_DisplayedColumns = driver.findElement(By.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'urPWOuterBorder lsPopupWindow lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[2]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[3]/div/descendant::tr[contains (@class, 'lsScrollbar__container--next')]/td/div"));
+                    WebElement scroller_DisplayedColumns = driver.findElement(By.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[2]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[3]/div/descendant::tr[contains (@class, 'lsScrollbar__container--next')]/td/div"));
 
                     //check the number of TBODY elements displayed by default
-                    List<WebElement> row_Blocks = driver.findElements(By.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'urPWOuterBorder lsPopupWindow lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[2]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[2]/div/descendant::table[contains (@id, 'mrss-cont-none-content')]/child::tbody"));
+                    List<WebElement> row_Blocks = driver.findElements(By.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[2]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[2]/div/descendant::table[contains (@id, 'mrss-cont-none-content')]/child::tbody"));
                     numberOfDefaultTbodySections = row_Blocks.size();
                     System.out.println("Number of TBODY tags in the 'RESULTS OF CSR ANALYSIS popup -> LOG MESSAGES table': " + numberOfDefaultTbodySections);
 
@@ -256,7 +256,7 @@ public class ComparePostprocessingResults extends PageObject {
                     while (TbodySection <= numberOfDefaultTbodySections) {
 
                         //address each TBODY section in RESULTS table via variable
-                        WebElement elm_1_1 = driver.findElement(By.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'urPWOuterBorder lsPopupWindow lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[2]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[2]/div/descendant::table[contains (@id, 'mrss-cont-none-content')]/tbody[" + TbodySection + "]"));
+                        WebElement elm_1_1 = driver.findElement(By.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[2]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[2]/div/descendant::table[contains (@id, 'mrss-cont-none-content')]/tbody[" + TbodySection + "]"));
                         //System.out.println("Number of TBODY tags in 'DISPLAYED COLUMNS' section on PERSONALIZATION popup: " + elm_1.size());
 
                         //count rows in current TBODY section in RESULTS table
@@ -275,10 +275,10 @@ public class ComparePostprocessingResults extends PageObject {
                             //ColumnCount++; //column counter
 
                             //Wait for the next row to appear in the "MESSAGE TEXT" column
-                            waitTillElementDetected(15, "//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'urPWOuterBorder lsPopupWindow lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[2]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[2]/div/descendant::table[contains (@id, 'mrss-cont-none-content')]/tbody[" + TbodySection + "]/tr[" + i + "]/td[" + numMessageTextColumn + "]/div/span", "NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table");
+                            waitTillElementDetected(15, "//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[2]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[2]/div/descendant::table[contains (@id, 'mrss-cont-none-content')]/tbody[" + TbodySection + "]/tr[" + i + "]/td[" + numMessageTextColumn + "]/div/span", "NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table");
 
                             //Find input field below the "Message Text" column title
-                            WebElement field_MessageText = driver.findElement(By.ByXPath.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'urPWOuterBorder lsPopupWindow lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[2]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[2]/div/descendant::table[contains (@id, 'mrss-cont-none-content')]/tbody[" + TbodySection + "]/tr[" + i + "]/td[" + numMessageTextColumn + "]/div/span"));
+                            WebElement field_MessageText = driver.findElement(By.ByXPath.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[2]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[2]/div/descendant::table[contains (@id, 'mrss-cont-none-content')]/tbody[" + TbodySection + "]/tr[" + i + "]/td[" + numMessageTextColumn + "]/div/span"));
 
                             String textValue = field_MessageText.getAttribute("innerText");
                             System.out.println("Value from MESSAGE TEXT column, row #" + i + " from BLOCK #" + TbodySection + " is:" + textValue);
@@ -310,7 +310,7 @@ public class ComparePostprocessingResults extends PageObject {
 
 
                         //check whether new TBODY got displayed dynamically
-                        List<WebElement> newDynamicTBODY = driver.findElements(By.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'urPWOuterBorder lsPopupWindow lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[2]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[2]/div/descendant::table[contains (@id, 'mrss-cont-none-content')]/child::tbody"));
+                        List<WebElement> newDynamicTBODY = driver.findElements(By.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[2]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[2]/div/descendant::table[contains (@id, 'mrss-cont-none-content')]/child::tbody"));
                         numberOfUpdatedTbodySections = newDynamicTBODY.size();
 
                         if (numberOfUpdatedTbodySections > numberOfDefaultTbodySections) {
@@ -574,10 +574,10 @@ public class ComparePostprocessingResults extends PageObject {
             //  if (Test_Cases.conf_SystemClient.equals("OGQ_100")) {
 
             //scroll the "RESULTS LIST" table all the way up till the top
-            WebElement belowRows2 = driver.findElement(By.ByXPath.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'urPWOuterBorder lsPopupWindow lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[1]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[3]/descendant::tr[contains (@class, 'lsScrollbar__container--track')]/td/div[2]"));
+            WebElement belowRows2 = driver.findElement(By.ByXPath.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[1]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[3]/div/descendant::tr[contains (@class, 'lsScrollbar__container--track')]/td/div/div[2]"));
             //js.executeScript("arguments[0].scrollIntoView();", belowRows);
 
-            WebElement panel_Height = driver.findElement(By.ByXPath.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'urPWOuterBorder lsPopupWindow lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[1]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[3]/descendant::tr[contains (@class, 'lsScrollbar__container--track')]/td"));
+            WebElement panel_Height = driver.findElement(By.ByXPath.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[1]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[3]/div/descendant::tr[contains (@class, 'lsScrollbar__container--track')]/td"));
             //js.executeScript("arguments[0].scrollIntoView();", belowRows);
             int height = panel_Height.getSize().getHeight();
             System.out.println("The height of the vertical scroll bar in 'RESULTS LIST' table is: " + height);
@@ -657,12 +657,12 @@ public class ComparePostprocessingResults extends PageObject {
             //scroll the table and count total rows to initialize array
             try {
 
-                WebElement scroller_DisplayedColumnsNext = driver.findElement(By.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'urPWOuterBorder lsPopupWindow lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[1]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[3]/div/descendant::tr[contains (@class, 'lsScrollbar__container--next')]/td/div"));
+                WebElement scroller_DisplayedColumnsNext = driver.findElement(By.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[1]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[3]/div/descendant::tr[contains (@class, 'lsScrollbar__container--next')]/td/div"));
 
-                WebElement scroller_DisplayedColumnsPrevious = driver.findElement(By.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'urPWOuterBorder lsPopupWindow lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[1]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[3]/div/descendant::tr[contains (@class, 'lsScrollbar__container--previous')]/td/div"));
+                WebElement scroller_DisplayedColumnsPrevious = driver.findElement(By.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[1]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[3]/div/descendant::tr[contains (@class, 'lsScrollbar__container--previous')]/td/div"));
 
                 //check the number of TBODY elements displayed by default
-                List<WebElement> row_Blocks = driver.findElements(By.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'urPWOuterBorder lsPopupWindow lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[1]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[2]/div/descendant::table[contains (@id, 'mrss-cont-none-content')]/child::tbody"));
+                List<WebElement> row_Blocks = driver.findElements(By.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[1]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[2]/div/descendant::table[contains (@id, 'mrss-cont-none-content')]/child::tbody"));
                 numberOfDefaultTbodySections1 = row_Blocks.size();
                 System.out.println("Number of TBODY blocks BY DEFAULT in the 'RESULTS OF CSR ANALYSIS popup -> RESULTS LIST table': " + numberOfDefaultTbodySections1);
 
@@ -671,7 +671,7 @@ public class ComparePostprocessingResults extends PageObject {
                 while (TbodySection1 <= numberOfDefaultTbodySections1) {
 
                     //address each TBODY section in RESULTS table via variable
-                    WebElement elm_1_1 = driver.findElement(By.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'urPWOuterBorder lsPopupWindow lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[1]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[2]/div/descendant::table[contains (@id, 'mrss-cont-none-content')]/tbody[" + TbodySection1 + "]"));
+                    WebElement elm_1_1 = driver.findElement(By.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[1]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[2]/div/descendant::table[contains (@id, 'mrss-cont-none-content')]/tbody[" + TbodySection1 + "]"));
                     //System.out.println("Number of TBODY tags in 'DISPLAYED COLUMNS' section on PERSONALIZATION popup: " + elm_1.size());
 
                     //count rows in current TBODY section in RESULTS table
@@ -686,7 +686,7 @@ public class ComparePostprocessingResults extends PageObject {
                         //WebElement field_DeliveryQty = driver.findElement(By.ByXPath.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'urPWOuterBorder lsPopupWindow lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[1]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[2]/div/descendant::table[contains (@id, 'mrss-cont-none-content')]/tbody[" + TbodySection1 + "]/tr[" + i + "]/td[" + numDeliveryQtyColumn + "]/div/span"));
 
                         //Wait for the next row to appear in the "DELIVERY QUANTITY" column
-                        waitTillElementDetected(15, "//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'urPWOuterBorder lsPopupWindow lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[1]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[2]/div/descendant::table[contains (@id, 'mrss-cont-none-content')]/tbody[" + TbodySection1 + "]/tr[" + i + "]/td[" + numDeliveryQtyColumn + "]/div/span", "NEXT DYNAMICALLY LOADED ROW in 'RESULTS LIST' Table");
+                        waitTillElementDetected(15, "//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[1]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[2]/div/descendant::table[contains (@id, 'mrss-cont-none-content')]/tbody[" + TbodySection1 + "]/tr[" + i + "]/td[" + numDeliveryQtyColumn + "]/div/span", "NEXT DYNAMICALLY LOADED ROW in 'RESULTS LIST' Table");
 
 
                         rowCountDeliveryQty1++;
@@ -700,7 +700,7 @@ public class ComparePostprocessingResults extends PageObject {
 
 
                     //check whether new TBODY got displayed dynamically
-                    List<WebElement> newDynamicTBODY = driver.findElements(By.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'urPWOuterBorder lsPopupWindow lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[1]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[2]/div/descendant::table[contains (@id, 'mrss-cont-none-content')]/child::tbody"));
+                    List<WebElement> newDynamicTBODY = driver.findElements(By.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[1]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[2]/div/descendant::table[contains (@id, 'mrss-cont-none-content')]/child::tbody"));
                     numberOfUpdatedTbodySections1 = newDynamicTBODY.size();
                     System.out.println("UPDATED number of TBODY sections  [" + numberOfUpdatedTbodySections1 + "]");
 
@@ -743,10 +743,10 @@ public class ComparePostprocessingResults extends PageObject {
                 //initialize the "after" array
                 afterCSR_Analysis_ResultsList_Array = new String[3][totalRowsResultsListTable];
 
-                WebElement scroller_DisplayedColumns = driver.findElement(By.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'urPWOuterBorder lsPopupWindow lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[1]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[3]/div/descendant::tr[contains (@class, 'lsScrollbar__container--next')]/td/div"));
+                WebElement scroller_DisplayedColumns = driver.findElement(By.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[1]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[3]/div/descendant::tr[contains (@class, 'lsScrollbar__container--next')]/td/div"));
 
                 //check the number of TBODY elements displayed by default
-                List<WebElement> row_Blocks = driver.findElements(By.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'urPWOuterBorder lsPopupWindow lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[1]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[2]/div/descendant::table[contains (@id, 'mrss-cont-none-content')]/child::tbody"));
+                List<WebElement> row_Blocks = driver.findElements(By.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[1]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[2]/div/descendant::table[contains (@id, 'mrss-cont-none-content')]/child::tbody"));
                 numberOfDefaultTbodySections = row_Blocks.size();
 
                 System.out.println("The number of default row blocks in RESULTS LIST table is: " + numberOfDefaultTbodySections);
@@ -757,7 +757,7 @@ public class ComparePostprocessingResults extends PageObject {
                 while (TbodySection <= numberOfDefaultTbodySections) {
 
                     //address each TBODY section in RESULTS table via variable
-                    WebElement elm_1_1 = driver.findElement(By.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'urPWOuterBorder lsPopupWindow lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[1]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[2]/div/descendant::table[contains (@id, 'mrss-cont-none-content')]/tbody[" + TbodySection + "]"));
+                    WebElement elm_1_1 = driver.findElement(By.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[1]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[2]/div/descendant::table[contains (@id, 'mrss-cont-none-content')]/tbody[" + TbodySection + "]"));
                     //System.out.println("Number of TBODY tags in 'DISPLAYED COLUMNS' section on PERSONALIZATION popup: " + elm_1.size());
 
                     //count rows in current TBODY section in RESULTS table
@@ -775,7 +775,7 @@ public class ComparePostprocessingResults extends PageObject {
                     for (int i = 1; i <= rows_Number; i++) {//iterate through all rows found in "Material" column in current TBODY section
                         //ColumnCount++; //column counter
                         //Find input field below the "Material" column title
-                        WebElement field_Material = driver.findElement(By.ByXPath.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'urPWOuterBorder lsPopupWindow lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[1]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[2]/div/descendant::table[contains (@id, 'mrss-cont-none-content')]/tbody[" + TbodySection + "]/tr[" + i + "]/td[" + numMaterialColumn + "]/div/span"));
+                        WebElement field_Material = driver.findElement(By.ByXPath.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[1]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[2]/div/descendant::table[contains (@id, 'mrss-cont-none-content')]/tbody[" + TbodySection + "]/tr[" + i + "]/td[" + numMaterialColumn + "]/div/span"));
 
                         String textValue = field_Material.getAttribute("innerText");
                         System.out.println("Value from MATERIAL column, row #" + i + " from BLOCK #" + TbodySection + " is:" + textValue);
@@ -783,7 +783,7 @@ public class ComparePostprocessingResults extends PageObject {
                         afterCSR_Analysis_ResultsList_Array[0][rc1] = textValue;//assign value into array
 
                         //Find input field below the "DELIVERY ID" column title
-                        WebElement field_DeliveryID = driver.findElement(By.ByXPath.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'urPWOuterBorder lsPopupWindow lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[1]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[2]/div/descendant::table[contains (@id, 'mrss-cont-none-content')]/tbody[" + TbodySection + "]/tr[" + i + "]/td[" + numDeliveryIDColumn + "]/div/span"));
+                        WebElement field_DeliveryID = driver.findElement(By.ByXPath.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[1]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[2]/div/descendant::table[contains (@id, 'mrss-cont-none-content')]/tbody[" + TbodySection + "]/tr[" + i + "]/td[" + numDeliveryIDColumn + "]/div/span"));
 
                         String textValue2 = field_DeliveryID.getAttribute("innerText");
                         System.out.println("Value from DELIVERY ID column, row #" + i + " from BLOCK #" + TbodySection + " is:" + textValue2);
@@ -792,7 +792,7 @@ public class ComparePostprocessingResults extends PageObject {
 
 
                         //Find input field below the "DELIVERY QUANTITY" column title
-                        WebElement field_DeliveryQty = driver.findElement(By.ByXPath.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'urPWOuterBorder lsPopupWindow lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[1]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[2]/div/descendant::table[contains (@id, 'mrss-cont-none-content')]/tbody[" + TbodySection + "]/tr[" + i + "]/td[" + numDeliveryQtyColumn + "]/div/span"));
+                        WebElement field_DeliveryQty = driver.findElement(By.ByXPath.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[1]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[2]/div/descendant::table[contains (@id, 'mrss-cont-none-content')]/tbody[" + TbodySection + "]/tr[" + i + "]/td[" + numDeliveryQtyColumn + "]/div/span"));
 
                         String textValue3 = field_DeliveryQty.getAttribute("innerText");
                         System.out.println("Value from DELIVERY QUANTITY column, row #" + i + " from BLOCK #" + TbodySection + " is:" + textValue3);
@@ -810,7 +810,7 @@ public class ComparePostprocessingResults extends PageObject {
 
 
                     //check whether new TBODY got displayed dynamically
-                    List<WebElement> newDynamicTBODY = driver.findElements(By.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'urPWOuterBorder lsPopupWindow lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[1]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[2]/div/descendant::table[contains (@id, 'mrss-cont-none-content')]/child::tbody"));
+                    List<WebElement> newDynamicTBODY = driver.findElements(By.xpath("//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[1]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[2]/div/descendant::table[contains (@id, 'mrss-cont-none-content')]/child::tbody"));
                     numberOfUpdatedTbodySections = newDynamicTBODY.size();
 
                     if (numberOfUpdatedTbodySections > numberOfDefaultTbodySections) {

@@ -1,353 +1,313 @@
-2020-09-22 13:43:17 INFO  Waitings:407 - TOTAL TIME that LOCATOR PANEL page was loading: 2.8 seconds.
-2020-09-22 13:43:18 INFO  Waitings:407 - TOTAL TIME that GROUP SETTINGS PANEL page was loading: 0.03 seconds.
-2020-09-22 13:43:18 INFO  Waitings:407 - TOTAL TIME that 'PAGE: DROPDOWN' page was loading: 0.028 seconds.
-2020-09-22 13:43:19 INFO  Waitings:407 - TOTAL TIME that 'RESET TO DEFAULT CSR GROUPS PAGE' menu item page was loading: 0.057 seconds.
-2020-09-22 13:43:20 INFO  LandingPage:1635 - SET TO DEFAULT menu item was SUCCESSFULLY clicked on.
-2020-09-22 13:43:21 INFO  Waitings:86 - TOTAL TIME that the CSR GROUPS PAGE after clicking on 'SET TO DEFAULT' menu item on PERSONALIZATION dropdown page was loading: 1.148 seconds.
-2020-09-22 13:43:23 INFO  LandingPage:2236 - Input 'PAGE:' has the default value of 'CSR Groups' AS EXPECTED.
-2020-09-22 13:43:25 INFO  Locator_DocCompare:1469 - All required panels on the GROUP SETTINGS main page are displayed as EXPECTED.
-2020-09-22 13:43:25 INFO  Locator_DocCompare:1524 - The ATTRIBUTE SELECTION input has the value of 'CSR Group ID' selected by default (AS EXPECTED).
-2020-09-22 13:43:26 INFO  Waitings:434 - TOTAL TIME that the PERSONALIZATION POPUP page was loading: 0.017 seconds.
-2020-09-22 13:43:31 INFO  LandingPage:224 - The 'SAVE' button (on 'PERSONALIZATION' popup) was clicked to save Default Settings.
-2020-09-22 13:43:33 INFO  Waitings:86 - TOTAL TIME that the DATA COLLATION PAGE after closing PERSONALIZATION popup page was loading: 2.123 seconds.
-2020-09-22 13:43:36 INFO  Locator_DocCompare:1086 - The 'SEARCH' button was SUCCESSFULLY clicked on.
-2020-09-22 13:43:36 INFO  Waitings:407 - TOTAL TIME that RESULTS LIST TABLE page was loading: 0.16 seconds.
-2020-09-22 13:43:37 INFO  Locator_DocCompare:1261 - The row with value of 'CSR - DNT' in column 'CSR GROUP ID' in SEARCH RESULTS table was SUCCESSFULLY found and CLICKED.
-2020-09-22 13:43:38 INFO  Waitings:289 - TOTAL TIME that the START CSR ANALYSIS button web-element was loading: 1.103 seconds.
-2020-09-22 13:43:39 INFO  CSR_AnalysisResults:1673 - The 'START CSR ANALYSIS' button (on 'CSR GROUP' page) was clicked.
-2020-09-22 13:43:39 INFO  Waitings:40 - TOTAL TIME that the RESULTS OF CSR ANALYSIS popup -> RESULTS LIST table web-element was loading: 0.019 seconds.
-2020-09-22 13:43:42 INFO  Waitings:86 - TOTAL TIME that the RESULTS OF CSR ANALYSIS popup -> LOG MESSAGES table page was loading: 2.615 seconds.
-2020-09-22 13:43:42 INFO  CSR_AnalysisResults:1585 - The 'PERSONALIZATION' button for RESULTS OF CSR ANALYSIS -> RESULTS LIST table was SUCCESSFULLY clicked.
-2020-09-22 13:43:42 INFO  Waitings:434 - TOTAL TIME that the PERSONALIZATION POPUP for RESULTS OF CSR ANALYSIS -> RESULTS LIST table page was loading: 0.01 seconds.
-2020-09-22 13:43:43 INFO  CSR_AnalysisResults:1489 - The 'Set to Default' button (on 'PERSONALIZATION' popup for RESULTS OF CSR ANALYSIS -> RESULTS LIST table) was detected to be in DISABLED status BY DEFAULT.
-2020-09-22 13:43:43 INFO  CSR_AnalysisResults:1497 - The 'Save' button (on 'PERSONALIZATION' popup for RESULTS OF CSR ANALYSIS -> RESULTS LIST table) was SUCCESSFULLY clicked.
-2020-09-22 13:43:43 INFO  Waitings:40 - TOTAL TIME that the RESULTS OF CSR ANALYSIS popup -> RESULTS LIST table web-element was loading: 0.017 seconds.
-2020-09-22 13:43:44 INFO  Waitings:86 - TOTAL TIME that the RESULTS OF CSR ANALYSIS popup -> LOG MESSAGES table page was loading: 1.07 seconds.
-2020-09-22 13:43:45 INFO  CSR_AnalysisResults:1547 - The 'PERSONALIZATION' button for RESULTS OF CSR ANALYSIS -> LOG table was SUCCESSFULLY clicked.
-2020-09-22 13:43:45 INFO  Waitings:434 - TOTAL TIME that the PERSONALIZATION POPUP for RESULTS OF CSR ANALYSIS -> LOG table page was loading: 0.011 seconds.
-2020-09-22 13:43:47 INFO  CSR_AnalysisResults:1360 - The 'Set to Default' button (on 'PERSONALIZATION' popup for RESULTS OF CSR ANALYSIS -> LOG table) was detected to be in DISABLED status BY DEFAULT.
-2020-09-22 13:43:47 INFO  CSR_AnalysisResults:1367 - The 'Save' button (on 'PERSONALIZATION' popup for RESULTS OF CSR ANALYSIS -> LOG table) was SUCCESSFULLY clicked.
-2020-09-22 13:43:47 INFO  Waitings:40 - TOTAL TIME that the RESULTS OF CSR ANALYSIS popup -> RESULTS LIST table web-element was loading: 0.017 seconds.
-2020-09-22 13:43:48 INFO  Waitings:86 - TOTAL TIME that the RESULTS OF CSR ANALYSIS popup -> LOG MESSAGES table page was loading: 1.067 seconds.
-2020-09-22 13:43:52 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'RESULTS LIST' Table web-element was loading: 0.024 seconds.
-2020-09-22 13:43:52 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'RESULTS LIST' Table web-element was loading: 0.132 seconds.
-2020-09-22 13:43:52 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'RESULTS LIST' Table web-element was loading: 0.081 seconds.
-2020-09-22 13:43:52 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'RESULTS LIST' Table web-element was loading: 0.048 seconds.
-2020-09-22 13:43:52 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'RESULTS LIST' Table web-element was loading: 0.023 seconds.
-2020-09-22 13:43:53 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'RESULTS LIST' Table web-element was loading: 0.031 seconds.
-2020-09-22 13:43:53 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'RESULTS LIST' Table web-element was loading: 0.026 seconds.
-2020-09-22 13:43:53 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'RESULTS LIST' Table web-element was loading: 0.023 seconds.
-2020-09-22 13:43:53 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'RESULTS LIST' Table web-element was loading: 0.025 seconds.
-2020-09-22 13:43:53 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'RESULTS LIST' Table web-element was loading: 0.029 seconds.
-2020-09-22 13:43:53 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'RESULTS LIST' Table web-element was loading: 0.027 seconds.
-2020-09-22 13:43:53 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'RESULTS LIST' Table web-element was loading: 0.022 seconds.
-2020-09-22 13:43:57 INFO  CSR_AnalysisResults:119 - RETRIEVED UNIQUE 'MATERIALS before processing': RF02
-2020-09-22 13:43:57 INFO  CSR_AnalysisResults:119 - RETRIEVED UNIQUE 'MATERIALS before processing': RF03
-2020-09-22 13:43:57 INFO  CSR_AnalysisResults:119 - RETRIEVED UNIQUE 'MATERIALS before processing': RF01
-2020-09-22 13:43:57 INFO  CSR_AnalysisResults:119 - RETRIEVED UNIQUE 'MATERIALS before processing': RF04
-2020-09-22 13:43:59 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.029 seconds.
-2020-09-22 13:43:59 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.166 seconds.
-2020-09-22 13:43:59 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.079 seconds.
-2020-09-22 13:43:59 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.05 seconds.
-2020-09-22 13:43:59 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.025 seconds.
-2020-09-22 13:43:59 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.039 seconds.
-2020-09-22 13:43:59 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.028 seconds.
-2020-09-22 13:43:59 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.035 seconds.
-2020-09-22 13:44:00 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.142 seconds.
-2020-09-22 13:44:00 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.025 seconds.
-2020-09-22 13:44:00 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.047 seconds.
-2020-09-22 13:44:00 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.039 seconds.
-2020-09-22 13:44:00 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.028 seconds.
-2020-09-22 13:44:00 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.027 seconds.
-2020-09-22 13:44:00 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.026 seconds.
-2020-09-22 13:44:00 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.028 seconds.
-2020-09-22 13:44:00 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.04 seconds.
-2020-09-22 13:44:00 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.028 seconds.
-2020-09-22 13:44:00 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.036 seconds.
-2020-09-22 13:44:00 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.029 seconds.
-2020-09-22 13:44:00 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.032 seconds.
-2020-09-22 13:44:00 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.028 seconds.
-2020-09-22 13:44:01 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.032 seconds.
-2020-09-22 13:44:01 WARN  CSR_AnalysisResults:280 - Retrieved 'Document number' consists of 2 instead of expected 20 digits!
-2020-09-22 13:44:01 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.016 seconds.
-2020-09-22 13:44:01 INFO  CSR_AnalysisResults:278 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000550' 
-2020-09-22 13:44:01 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.02 seconds.
-2020-09-22 13:44:01 INFO  CSR_AnalysisResults:278 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000551' 
-2020-09-22 13:44:02 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.02 seconds.
-2020-09-22 13:44:02 INFO  CSR_AnalysisResults:278 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000552' 
-2020-09-22 13:44:02 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.014 seconds.
-2020-09-22 13:44:02 INFO  CSR_AnalysisResults:278 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000553' 
-2020-09-22 13:44:02 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.018 seconds.
-2020-09-22 13:44:02 INFO  CSR_AnalysisResults:278 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000550' 
-2020-09-22 13:44:02 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.016 seconds.
-2020-09-22 13:44:02 WARN  CSR_AnalysisResults:280 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
-2020-09-22 13:44:02 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.018 seconds.
-2020-09-22 13:44:02 INFO  CSR_AnalysisResults:278 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000550' 
-2020-09-22 13:44:02 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.016 seconds.
-2020-09-22 13:44:02 INFO  CSR_AnalysisResults:278 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000551' 
-2020-09-22 13:44:02 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.022 seconds.
-2020-09-22 13:44:02 INFO  CSR_AnalysisResults:278 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000552' 
-2020-09-22 13:44:02 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.021 seconds.
-2020-09-22 13:44:02 INFO  CSR_AnalysisResults:278 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000553' 
-2020-09-22 13:44:02 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.021 seconds.
-2020-09-22 13:44:02 INFO  CSR_AnalysisResults:278 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000550' 
-2020-09-22 13:44:03 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.016 seconds.
-2020-09-22 13:44:03 WARN  CSR_AnalysisResults:280 - Retrieved 'Document number' consists of 28 instead of expected 20 digits!
-2020-09-22 13:44:03 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.019 seconds.
-2020-09-22 13:44:03 INFO  CSR_AnalysisResults:278 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000550' 
-2020-09-22 13:44:03 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.017 seconds.
-2020-09-22 13:44:03 INFO  CSR_AnalysisResults:278 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000551' 
-2020-09-22 13:44:03 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.017 seconds.
-2020-09-22 13:44:03 INFO  CSR_AnalysisResults:278 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000552' 
-2020-09-22 13:44:03 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.017 seconds.
-2020-09-22 13:44:03 INFO  CSR_AnalysisResults:278 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000553' 
-2020-09-22 13:44:03 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.039 seconds.
-2020-09-22 13:44:03 INFO  CSR_AnalysisResults:278 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000551' 
-2020-09-22 13:44:03 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.025 seconds.
-2020-09-22 13:44:03 WARN  CSR_AnalysisResults:280 - Retrieved 'Document number' consists of 2 instead of expected 20 digits!
-2020-09-22 13:44:03 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.022 seconds.
-2020-09-22 13:44:03 WARN  CSR_AnalysisResults:280 - Retrieved 'Document number' consists of 2 instead of expected 20 digits!
-2020-09-22 13:44:03 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.026 seconds.
-2020-09-22 13:44:03 WARN  CSR_AnalysisResults:280 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
-2020-09-22 13:44:03 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.026 seconds.
-2020-09-22 13:44:03 WARN  CSR_AnalysisResults:280 - Retrieved 'Document number' consists of 2 instead of expected 20 digits!
-2020-09-22 13:44:05 INFO  CSR_AnalysisResults:86 - RETRIEVED UNIQUE 'DOCUMENT NUMBERS before processing': 00000000000000000550
-2020-09-22 13:44:05 INFO  CSR_AnalysisResults:86 - RETRIEVED UNIQUE 'DOCUMENT NUMBERS before processing': 00000000000000000551
-2020-09-22 13:44:05 INFO  CSR_AnalysisResults:86 - RETRIEVED UNIQUE 'DOCUMENT NUMBERS before processing': 00000000000000000552
-2020-09-22 13:44:05 INFO  CSR_AnalysisResults:86 - RETRIEVED UNIQUE 'DOCUMENT NUMBERS before processing': 00000000000000000553
-2020-09-22 13:44:06 INFO  Test_Cases:325 - The number of DELIVERY IDs is THE SAME as the number of DOCUMENT NUMBERS: 4 vs. 4, AS EXPECTED.
-2020-09-22 13:44:06 INFO  CSR_AnalysisResults:367 - The START PROCESSING button on the RESULTS OF CSR ANALYSIS popup was clicked SUCCESSFULLY.
-2020-09-22 13:44:07 INFO  Waitings:40 - TOTAL TIME that the POSTPROCESSING popup web-element was loading: 0.036 seconds.
-2020-09-22 13:44:08 INFO  PostProcessing:798 - PERSONALIZE button was SUCCESSFULLY clicked on the POSTPROCESSING popup.
-2020-09-22 13:44:08 INFO  Waitings:434 - TOTAL TIME that the PERSONALIZATION POPUP page was loading: 0.01 seconds.
-2020-09-22 13:44:12 INFO  PostProcessing:756 - The 'Set to Default' button (on 'PERSONALIZATION' popup for POSTPROCESSING) was detected to be DISABLED by Default.
-2020-09-22 13:44:13 INFO  PostProcessing:667 - The 'SAVE' button (on 'PERSONALIZATION' popup for POSTPROCESSING) was clicked to save Default Settings.
-2020-09-22 13:44:15 INFO  Waitings:86 - TOTAL TIME that the POSTPROCESSING popup after closing PERSONALIZATION popup page was loading: 2.152 seconds.
-2020-09-22 13:44:17 INFO  PostProcessing:335 - Number of columns in the POSTPROCESSING SELECTION table: 4
-2020-09-22 13:44:17 INFO  PostProcessing:371 - Number of rows in the POSTPROCESSING SELECTION table: 2
-2020-09-22 13:44:17 INFO  PostProcessing:388 - The value in 'Postprocessing Action ID' column in row# 1 is equal to: ORDER
-2020-09-22 13:44:17 INFO  PostProcessing:545 - Number of columns in the POSTPROCESSING SELECTION table: 4
-2020-09-22 13:44:17 INFO  PostProcessing:581 - Number of rows in the POSTPROCESSING SELECTION table: 2
-2020-09-22 13:44:17 INFO  PostProcessing:597 - The class value in 'Execute Action' column in row# 1 is equal to: lsSelector--generic lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--checked 
-2020-09-22 13:44:18 INFO  PostProcessing:597 - The class value in 'Execute Action' column in row# 2 is equal to: lsSelector--generic lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--checked 
-2020-09-22 13:44:18 INFO  PostProcessing:388 - The value in 'Postprocessing Action ID' column in row# 2 is equal to: MAIL
-2020-09-22 13:44:18 INFO  PostProcessing:545 - Number of columns in the POSTPROCESSING SELECTION table: 4
-2020-09-22 13:44:18 INFO  PostProcessing:581 - Number of rows in the POSTPROCESSING SELECTION table: 2
-2020-09-22 13:44:18 INFO  PostProcessing:597 - The class value in 'Execute Action' column in row# 1 is equal to: lsSelector--generic lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--checked 
-2020-09-22 13:44:18 INFO  PostProcessing:597 - The class value in 'Execute Action' column in row# 2 is equal to: lsSelector--generic lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--checked 
-2020-09-22 13:44:19 INFO  Test_Cases:361 - Both 'ORDER' and 'MAIL' rows were SUCCESSFULLY found as SELECTED in the POSTPROCESSING SELECTION table on the POSTPROCESSING popup.
-2020-09-22 13:44:19 INFO  PostProcessing:205 - EXECUTE POSTPROCESSING button was SUCCESSFULLY clicked on the POSTPROCESSING popup.
-2020-09-22 13:44:24 INFO  Waitings:40 - TOTAL TIME that the E-MAIL SENT SUCCESSFULLY message web-element was loading: 5.288 seconds.
-2020-09-22 13:44:24 INFO  Waitings:40 - TOTAL TIME that the CSR ORDER GENERATION COMPLETED SUCCESSFULLY message web-element was loading: 0.026 seconds.
-2020-09-22 13:44:28 INFO  Waitings:582 - TOTAL TIME that the RESULTS OF CSR ANALYSIS popup was observed for changing its status: 1.099 seconds.
-2020-09-22 13:44:29 INFO  Waitings:86 - TOTAL TIME that the RESULTS OF CSR ANALYSIS popup -> LOG MESSAGES table page was loading: 1.053 seconds.
-2020-09-22 13:44:33 INFO  Waitings:434 - TOTAL TIME that the Updated 'CSR ANALYSIS RESULTS' TABLE after SCROLL-UP page was loading: 0.008 seconds.
-2020-09-22 13:44:36 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'RESULTS LIST' Table web-element was loading: 0.037 seconds.
-2020-09-22 13:44:36 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'RESULTS LIST' Table web-element was loading: 0.022 seconds.
-2020-09-22 13:44:36 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'RESULTS LIST' Table web-element was loading: 0.026 seconds.
-2020-09-22 13:44:36 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'RESULTS LIST' Table web-element was loading: 0.036 seconds.
-2020-09-22 13:44:36 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'RESULTS LIST' Table web-element was loading: 0.024 seconds.
-2020-09-22 13:44:36 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'RESULTS LIST' Table web-element was loading: 0.039 seconds.
-2020-09-22 13:44:37 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'RESULTS LIST' Table web-element was loading: 0.03 seconds.
-2020-09-22 13:44:37 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'RESULTS LIST' Table web-element was loading: 0.023 seconds.
-2020-09-22 13:44:37 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'RESULTS LIST' Table web-element was loading: 0.02 seconds.
-2020-09-22 13:44:37 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'RESULTS LIST' Table web-element was loading: 0.027 seconds.
-2020-09-22 13:44:37 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'RESULTS LIST' Table web-element was loading: 0.042 seconds.
-2020-09-22 13:44:37 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'RESULTS LIST' Table web-element was loading: 0.026 seconds.
-2020-09-22 13:44:40 INFO  ComparePostprocessingResults:875 - RETRIEVED UNIQUE 'MATERIALS after processing': RF02
-2020-09-22 13:44:40 INFO  ComparePostprocessingResults:875 - RETRIEVED UNIQUE 'MATERIALS after processing': RF03
-2020-09-22 13:44:40 INFO  ComparePostprocessingResults:875 - RETRIEVED UNIQUE 'MATERIALS after processing': RF01
-2020-09-22 13:44:40 INFO  ComparePostprocessingResults:875 - RETRIEVED UNIQUE 'MATERIALS after processing': RF04
-2020-09-22 13:44:42 INFO  Waitings:434 - TOTAL TIME that the Updated 'CSR ANALYSIS LOG MESSAGES' TABLE after SCROLL-UP page was loading: 0.071 seconds.
-2020-09-22 13:44:45 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.037 seconds.
-2020-09-22 13:44:46 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.09 seconds.
-2020-09-22 13:44:46 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.029 seconds.
-2020-09-22 13:44:46 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.038 seconds.
-2020-09-22 13:44:46 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.026 seconds.
-2020-09-22 13:44:46 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.03 seconds.
-2020-09-22 13:44:46 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.032 seconds.
-2020-09-22 13:44:46 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.092 seconds.
-2020-09-22 13:44:46 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.038 seconds.
-2020-09-22 13:44:46 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.028 seconds.
-2020-09-22 13:44:46 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.04 seconds.
-2020-09-22 13:44:46 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.029 seconds.
-2020-09-22 13:44:46 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.027 seconds.
-2020-09-22 13:44:46 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.089 seconds.
-2020-09-22 13:44:47 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.023 seconds.
-2020-09-22 13:44:47 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.037 seconds.
-2020-09-22 13:44:47 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.032 seconds.
-2020-09-22 13:44:47 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.029 seconds.
-2020-09-22 13:44:47 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.027 seconds.
-2020-09-22 13:44:47 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.095 seconds.
-2020-09-22 13:44:47 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.033 seconds.
-2020-09-22 13:44:47 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.023 seconds.
-2020-09-22 13:44:47 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.036 seconds.
-2020-09-22 13:44:47 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.027 seconds.
-2020-09-22 13:44:47 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.036 seconds.
-2020-09-22 13:44:47 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.069 seconds.
-2020-09-22 13:44:48 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.038 seconds.
-2020-09-22 13:44:48 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.022 seconds.
-2020-09-22 13:44:48 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.033 seconds.
-2020-09-22 13:44:48 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.024 seconds.
-2020-09-22 13:44:48 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.036 seconds.
-2020-09-22 13:44:48 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.083 seconds.
-2020-09-22 13:44:48 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.025 seconds.
-2020-09-22 13:44:48 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.022 seconds.
-2020-09-22 13:44:48 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.024 seconds.
-2020-09-22 13:44:48 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.028 seconds.
-2020-09-22 13:44:48 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.036 seconds.
-2020-09-22 13:44:48 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.091 seconds.
-2020-09-22 13:44:48 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.037 seconds.
-2020-09-22 13:44:49 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.033 seconds.
-2020-09-22 13:44:49 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.028 seconds.
-2020-09-22 13:44:49 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.027 seconds.
-2020-09-22 13:44:49 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.035 seconds.
-2020-09-22 13:44:49 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.076 seconds.
-2020-09-22 13:44:49 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.039 seconds.
-2020-09-22 13:44:49 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.037 seconds.
-2020-09-22 13:44:49 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.032 seconds.
-2020-09-22 13:44:49 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.026 seconds.
-2020-09-22 13:44:49 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.035 seconds.
-2020-09-22 13:44:49 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.099 seconds.
-2020-09-22 13:44:49 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.023 seconds.
-2020-09-22 13:44:49 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.034 seconds.
-2020-09-22 13:44:50 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.034 seconds.
-2020-09-22 13:44:50 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.022 seconds.
-2020-09-22 13:44:50 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.04 seconds.
-2020-09-22 13:44:50 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.03 seconds.
-2020-09-22 13:44:50 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.022 seconds.
-2020-09-22 13:44:50 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.022 seconds.
-2020-09-22 13:44:50 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.027 seconds.
-2020-09-22 13:44:50 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.027 seconds.
-2020-09-22 13:44:50 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.029 seconds.
-2020-09-22 13:44:51 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.041 seconds.
-2020-09-22 13:44:51 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 2 instead of expected 20 digits!
-2020-09-22 13:44:51 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.025 seconds.
-2020-09-22 13:44:51 INFO  ComparePostprocessingResults:293 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000550' 
-2020-09-22 13:44:51 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.023 seconds.
-2020-09-22 13:44:51 INFO  ComparePostprocessingResults:293 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000551' 
-2020-09-22 13:44:51 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.025 seconds.
-2020-09-22 13:44:51 INFO  ComparePostprocessingResults:293 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000552' 
-2020-09-22 13:44:51 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.023 seconds.
-2020-09-22 13:44:51 INFO  ComparePostprocessingResults:293 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000553' 
-2020-09-22 13:44:51 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.023 seconds.
-2020-09-22 13:44:51 INFO  ComparePostprocessingResults:293 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000550' 
-2020-09-22 13:44:51 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.026 seconds.
-2020-09-22 13:44:51 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
-2020-09-22 13:44:51 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.023 seconds.
-2020-09-22 13:44:52 INFO  ComparePostprocessingResults:293 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000550' 
-2020-09-22 13:44:52 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.024 seconds.
-2020-09-22 13:44:52 INFO  ComparePostprocessingResults:293 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000551' 
-2020-09-22 13:44:52 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.025 seconds.
-2020-09-22 13:44:52 INFO  ComparePostprocessingResults:293 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000552' 
-2020-09-22 13:44:52 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.031 seconds.
-2020-09-22 13:44:52 INFO  ComparePostprocessingResults:293 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000553' 
-2020-09-22 13:44:52 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.026 seconds.
-2020-09-22 13:44:52 INFO  ComparePostprocessingResults:293 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000550' 
-2020-09-22 13:44:52 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.028 seconds.
-2020-09-22 13:44:52 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 28 instead of expected 20 digits!
-2020-09-22 13:44:52 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.026 seconds.
-2020-09-22 13:44:52 INFO  ComparePostprocessingResults:293 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000550' 
-2020-09-22 13:44:52 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.03 seconds.
-2020-09-22 13:44:52 INFO  ComparePostprocessingResults:293 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000551' 
-2020-09-22 13:44:52 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.024 seconds.
-2020-09-22 13:44:52 INFO  ComparePostprocessingResults:293 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000552' 
-2020-09-22 13:44:53 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.034 seconds.
-2020-09-22 13:44:53 INFO  ComparePostprocessingResults:293 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000553' 
-2020-09-22 13:44:53 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.035 seconds.
-2020-09-22 13:44:53 INFO  ComparePostprocessingResults:293 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000551' 
-2020-09-22 13:44:53 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.03 seconds.
-2020-09-22 13:44:53 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 2 instead of expected 20 digits!
-2020-09-22 13:44:53 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.028 seconds.
-2020-09-22 13:44:53 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 2 instead of expected 20 digits!
-2020-09-22 13:44:53 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.024 seconds.
-2020-09-22 13:44:53 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
-2020-09-22 13:44:53 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.023 seconds.
-2020-09-22 13:44:53 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 2 instead of expected 20 digits!
-2020-09-22 13:44:53 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.03 seconds.
-2020-09-22 13:44:53 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 6 instead of expected 20 digits!
-2020-09-22 13:44:53 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.027 seconds.
-2020-09-22 13:44:54 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
-2020-09-22 13:44:54 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.026 seconds.
-2020-09-22 13:44:54 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
-2020-09-22 13:44:54 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.026 seconds.
-2020-09-22 13:44:54 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
-2020-09-22 13:44:54 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.027 seconds.
-2020-09-22 13:44:54 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
-2020-09-22 13:44:54 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.029 seconds.
-2020-09-22 13:44:54 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
-2020-09-22 13:44:54 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.03 seconds.
-2020-09-22 13:44:54 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
-2020-09-22 13:44:54 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.025 seconds.
-2020-09-22 13:44:54 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
-2020-09-22 13:44:54 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.024 seconds.
-2020-09-22 13:44:54 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
-2020-09-22 13:44:54 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.023 seconds.
-2020-09-22 13:44:54 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
-2020-09-22 13:44:55 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.031 seconds.
-2020-09-22 13:44:55 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
-2020-09-22 13:44:55 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.024 seconds.
-2020-09-22 13:44:55 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 4 instead of expected 20 digits!
-2020-09-22 13:44:55 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.023 seconds.
-2020-09-22 13:44:55 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 4 instead of expected 20 digits!
-2020-09-22 13:44:55 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.027 seconds.
-2020-09-22 13:44:55 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 6 instead of expected 20 digits!
-2020-09-22 13:44:55 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.029 seconds.
-2020-09-22 13:44:55 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
-2020-09-22 13:44:55 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.03 seconds.
-2020-09-22 13:44:55 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
-2020-09-22 13:44:55 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.024 seconds.
-2020-09-22 13:44:55 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
-2020-09-22 13:44:55 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.021 seconds.
-2020-09-22 13:44:55 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
-2020-09-22 13:44:55 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.03 seconds.
-2020-09-22 13:44:55 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
-2020-09-22 13:44:56 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.022 seconds.
-2020-09-22 13:44:56 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
-2020-09-22 13:44:56 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.023 seconds.
-2020-09-22 13:44:56 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
-2020-09-22 13:44:56 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.023 seconds.
-2020-09-22 13:44:56 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
-2020-09-22 13:44:56 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.023 seconds.
-2020-09-22 13:44:56 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
-2020-09-22 13:44:56 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.028 seconds.
-2020-09-22 13:44:56 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
-2020-09-22 13:44:56 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.037 seconds.
-2020-09-22 13:44:56 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 4 instead of expected 20 digits!
-2020-09-22 13:44:56 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.023 seconds.
-2020-09-22 13:44:56 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 4 instead of expected 20 digits!
-2020-09-22 13:44:56 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.025 seconds.
-2020-09-22 13:44:56 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 6 instead of expected 20 digits!
-2020-09-22 13:44:56 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.026 seconds.
-2020-09-22 13:44:56 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
-2020-09-22 13:44:57 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.024 seconds.
-2020-09-22 13:44:57 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
-2020-09-22 13:44:57 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.024 seconds.
-2020-09-22 13:44:57 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
-2020-09-22 13:44:57 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.04 seconds.
-2020-09-22 13:44:57 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
-2020-09-22 13:44:57 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.025 seconds.
-2020-09-22 13:44:57 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
-2020-09-22 13:44:57 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.029 seconds.
-2020-09-22 13:44:57 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
-2020-09-22 13:44:57 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.026 seconds.
-2020-09-22 13:44:57 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
-2020-09-22 13:44:57 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.02 seconds.
-2020-09-22 13:44:57 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
-2020-09-22 13:44:57 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.026 seconds.
-2020-09-22 13:44:57 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
-2020-09-22 13:44:57 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.036 seconds.
-2020-09-22 13:44:58 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
-2020-09-22 13:44:58 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.031 seconds.
-2020-09-22 13:44:58 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 4 instead of expected 20 digits!
-2020-09-22 13:44:58 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.037 seconds.
-2020-09-22 13:44:58 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 4 instead of expected 20 digits!
-2020-09-22 13:44:59 INFO  ComparePostprocessingResults:80 - RETRIEVED UNIQUE 'DOCUMENT NUMBERS after processing': 00000000000000000550
-2020-09-22 13:44:59 INFO  ComparePostprocessingResults:80 - RETRIEVED UNIQUE 'DOCUMENT NUMBERS after processing': 00000000000000000551
-2020-09-22 13:44:59 INFO  ComparePostprocessingResults:80 - RETRIEVED UNIQUE 'DOCUMENT NUMBERS after processing': 00000000000000000552
-2020-09-22 13:44:59 INFO  ComparePostprocessingResults:80 - RETRIEVED UNIQUE 'DOCUMENT NUMBERS after processing': 00000000000000000553
-2020-09-22 13:45:00 INFO  Test_Cases:412 - The number of UNIQUE DELIVERY IDs before and after POSTPROCESSING is THE SAME: 4 vs. 4, AS EXPECTED.
-2020-09-22 13:45:00 INFO  Test_Cases:420 - The number of UNIQUE DOCUMENTS before and after POSTPROCESSING is THE SAME: 4 vs. 4, AS EXPECTED.
-2020-09-22 13:45:00 INFO  Test_Cases:424 - The UNIQUE DOCUMENTS before and after processing are THE SAME.
-2020-09-22 13:45:00 INFO  Test_Cases:457 - The number of UNIQUE DELIVERY IDs is THE SAME as the number of UNIQUE DOCUMENT NUMBERS after POSTPROCESSING: 4 vs. 4, AS EXPECTED.
-2020-09-22 13:45:00 INFO  ComparePostprocessingResults:44 - The CLOSE button on the RESULTS OF CSR ANALYSIS popup was clicked SUCCESSFULLY.
+2023-11-24 12:37:40 INFO  Waitings:407 - TOTAL TIME that LOCATOR PANEL page was loading: 2.652 seconds.
+2023-11-24 12:37:40 INFO  Waitings:407 - TOTAL TIME that GROUP SETTINGS PANEL page was loading: 0.038 seconds.
+2023-11-24 12:37:40 INFO  Waitings:407 - TOTAL TIME that 'PAGE: DROPDOWN' page was loading: 0.02 seconds.
+2023-11-24 12:37:41 INFO  Waitings:407 - TOTAL TIME that 'RESET TO DEFAULT CSR GROUPS PAGE' menu item page was loading: 0.025 seconds.
+2023-11-24 12:37:43 INFO  LandingPage:1635 - SET TO DEFAULT menu item was SUCCESSFULLY clicked on.
+2023-11-24 12:37:44 INFO  Waitings:86 - TOTAL TIME that the CSR GROUPS PAGE after clicking on 'SET TO DEFAULT' menu item on PERSONALIZATION dropdown page was loading: 1.1 seconds.
+2023-11-24 12:37:45 INFO  LandingPage:2223 - Input 'PAGE:' has the default value of 'CSR Groups' AS EXPECTED.
+2023-11-24 12:37:47 INFO  Locator_DocCompare:1459 - All required panels on the GROUP SETTINGS main page are displayed as EXPECTED.
+2023-11-24 12:37:47 INFO  Locator_DocCompare:1524 - The ATTRIBUTE SELECTION input has the value of 'CSR Group ID' selected by default (AS EXPECTED).
+2023-11-24 12:37:50 INFO  Waitings:86 - TOTAL TIME that the PERSONALIZATION POPUP page was loading: 1.928 seconds.
+2023-11-24 12:37:52 INFO  LandingPage:209 - The 'SAVE' button (on 'PERSONALIZATION' popup) was clicked to save Default Settings.
+2023-11-24 12:37:54 INFO  Waitings:86 - TOTAL TIME that the DATA COLLATION PAGE after closing PERSONALIZATION popup page was loading: 2.115 seconds.
+2023-11-24 12:37:56 INFO  Locator_DocCompare:1086 - The 'SEARCH' button was SUCCESSFULLY clicked on.
+2023-11-24 12:37:57 INFO  Waitings:407 - TOTAL TIME that RESULTS LIST TABLE page was loading: 0.146 seconds.
+2023-11-24 12:37:58 INFO  Locator_DocCompare:1261 - The row with value of 'CSR - DNT' in column 'CSR GROUP ID' in SEARCH RESULTS table was SUCCESSFULLY found and CLICKED.
+2023-11-24 12:37:59 INFO  Waitings:289 - TOTAL TIME that the START CSR ANALYSIS button web-element was loading: 1.096 seconds.
+2023-11-24 12:38:00 INFO  CSR_AnalysisResults:1662 - The 'START CSR ANALYSIS' button (on 'CSR GROUP' page) was clicked.
+2023-11-24 12:38:01 INFO  Waitings:40 - TOTAL TIME that the RESULTS OF CSR ANALYSIS popup -> RESULTS LIST table web-element was loading: 1.207 seconds.
+2023-11-24 12:38:01 INFO  Waitings:40 - TOTAL TIME that the RESULTS OF CSR ANALYSIS popup -> LOG MESSAGES table web-element was loading: 0.02 seconds.
+2023-11-24 12:38:01 INFO  CSR_AnalysisResults:1560 - The 'PERSONALIZATION' button for RESULTS OF CSR ANALYSIS -> RESULTS LIST table was SUCCESSFULLY clicked.
+2023-11-24 12:38:03 INFO  Waitings:86 - TOTAL TIME that the PERSONALIZATION POPUP for RESULTS OF CSR ANALYSIS -> RESULTS LIST table page was loading: 1.427 seconds.
+2023-11-24 12:38:04 INFO  CSR_AnalysisResults:1424 - The 'Set to Default' button (on 'PERSONALIZATION' popup for RESULTS OF CSR ANALYSIS -> RESULTS LIST table) was detected to be in DISABLED status BY DEFAULT.
+2023-11-24 12:38:04 INFO  CSR_AnalysisResults:1433 - The 'Save' button (on 'PERSONALIZATION' popup for RESULTS OF CSR ANALYSIS -> RESULTS LIST table) was SUCCESSFULLY clicked.
+2023-11-24 12:38:04 INFO  Waitings:40 - TOTAL TIME that the RESULTS OF CSR ANALYSIS popup -> RESULTS LIST table web-element was loading: 0.021 seconds.
+2023-11-24 12:38:05 INFO  Waitings:86 - TOTAL TIME that the RESULTS OF CSR ANALYSIS popup -> LOG MESSAGES table page was loading: 1.065 seconds.
+2023-11-24 12:38:06 INFO  CSR_AnalysisResults:1522 - The 'PERSONALIZATION' button for RESULTS OF CSR ANALYSIS -> LOG table was SUCCESSFULLY clicked.
+2023-11-24 12:38:08 INFO  Waitings:86 - TOTAL TIME that the PERSONALIZATION POPUP for RESULTS OF CSR ANALYSIS -> LOG table page was loading: 1.416 seconds.
+2023-11-24 12:38:09 INFO  CSR_AnalysisResults:1293 - The 'Set to Default' button (on 'PERSONALIZATION' popup for RESULTS OF CSR ANALYSIS -> LOG table) was detected to be in DISABLED status BY DEFAULT.
+2023-11-24 12:38:09 INFO  CSR_AnalysisResults:1302 - The 'Save' button (on 'PERSONALIZATION' popup for RESULTS OF CSR ANALYSIS -> LOG table) was SUCCESSFULLY clicked.
+2023-11-24 12:38:09 INFO  Waitings:40 - TOTAL TIME that the RESULTS OF CSR ANALYSIS popup -> RESULTS LIST table web-element was loading: 0.021 seconds.
+2023-11-24 12:38:10 INFO  Waitings:86 - TOTAL TIME that the RESULTS OF CSR ANALYSIS popup -> LOG MESSAGES table page was loading: 1.061 seconds.
+2023-11-24 12:38:13 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'RESULTS LIST' Table web-element was loading: 0.028 seconds.
+2023-11-24 12:38:13 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'RESULTS LIST' Table web-element was loading: 0.032 seconds.
+2023-11-24 12:38:13 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'RESULTS LIST' Table web-element was loading: 0.067 seconds.
+2023-11-24 12:38:13 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'RESULTS LIST' Table web-element was loading: 0.047 seconds.
+2023-11-24 12:38:13 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'RESULTS LIST' Table web-element was loading: 0.044 seconds.
+2023-11-24 12:38:13 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'RESULTS LIST' Table web-element was loading: 0.021 seconds.
+2023-11-24 12:38:14 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'RESULTS LIST' Table web-element was loading: 0.039 seconds.
+2023-11-24 12:38:14 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'RESULTS LIST' Table web-element was loading: 0.04 seconds.
+2023-11-24 12:38:14 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'RESULTS LIST' Table web-element was loading: 0.022 seconds.
+2023-11-24 12:38:14 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'RESULTS LIST' Table web-element was loading: 0.023 seconds.
+2023-11-24 12:38:14 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'RESULTS LIST' Table web-element was loading: 0.022 seconds.
+2023-11-24 12:38:14 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'RESULTS LIST' Table web-element was loading: 0.018 seconds.
+2023-11-24 12:38:17 INFO  CSR_AnalysisResults:119 - RETRIEVED UNIQUE 'MATERIALS before processing': RF02
+2023-11-24 12:38:17 INFO  CSR_AnalysisResults:119 - RETRIEVED UNIQUE 'MATERIALS before processing': RF03
+2023-11-24 12:38:17 INFO  CSR_AnalysisResults:119 - RETRIEVED UNIQUE 'MATERIALS before processing': RF01
+2023-11-24 12:38:17 INFO  CSR_AnalysisResults:119 - RETRIEVED UNIQUE 'MATERIALS before processing': RF04
+2023-11-24 12:38:19 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.03 seconds.
+2023-11-24 12:38:19 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.026 seconds.
+2023-11-24 12:38:19 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.083 seconds.
+2023-11-24 12:38:19 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.045 seconds.
+2023-11-24 12:38:19 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.032 seconds.
+2023-11-24 12:38:19 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.021 seconds.
+2023-11-24 12:38:19 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.032 seconds.
+2023-11-24 12:38:19 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.038 seconds.
+2023-11-24 12:38:19 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.061 seconds.
+2023-11-24 12:38:19 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.05 seconds.
+2023-11-24 12:38:19 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.037 seconds.
+2023-11-24 12:38:19 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.018 seconds.
+2023-11-24 12:38:19 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.034 seconds.
+2023-11-24 12:38:19 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.032 seconds.
+2023-11-24 12:38:20 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.031 seconds.
+2023-11-24 12:38:20 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.03 seconds.
+2023-11-24 12:38:20 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.029 seconds.
+2023-11-24 12:38:20 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.02 seconds.
+2023-11-24 12:38:20 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.023 seconds.
+2023-11-24 12:38:20 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.023 seconds.
+2023-11-24 12:38:20 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.025 seconds.
+2023-11-24 12:38:20 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.013 seconds.
+2023-11-24 12:38:21 WARN  CSR_AnalysisResults:280 - Retrieved 'Document number' consists of 2 instead of expected 20 digits!
+2023-11-24 12:38:21 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.028 seconds.
+2023-11-24 12:38:21 WARN  CSR_AnalysisResults:280 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
+2023-11-24 12:38:21 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.029 seconds.
+2023-11-24 12:38:21 WARN  CSR_AnalysisResults:280 - Retrieved 'Document number' consists of 2 instead of expected 20 digits!
+2023-11-24 12:38:21 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.026 seconds.
+2023-11-24 12:38:21 WARN  CSR_AnalysisResults:280 - Retrieved 'Document number' consists of 2 instead of expected 20 digits!
+2023-11-24 12:38:21 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.033 seconds.
+2023-11-24 12:38:21 INFO  CSR_AnalysisResults:278 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000550' 
+2023-11-24 12:38:21 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.015 seconds.
+2023-11-24 12:38:21 INFO  CSR_AnalysisResults:278 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000551' 
+2023-11-24 12:38:21 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.031 seconds.
+2023-11-24 12:38:21 INFO  CSR_AnalysisResults:278 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000552' 
+2023-11-24 12:38:21 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.025 seconds.
+2023-11-24 12:38:21 INFO  CSR_AnalysisResults:278 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000553' 
+2023-11-24 12:38:21 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.02 seconds.
+2023-11-24 12:38:21 INFO  CSR_AnalysisResults:278 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000550' 
+2023-11-24 12:38:21 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.025 seconds.
+2023-11-24 12:38:21 WARN  CSR_AnalysisResults:280 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
+2023-11-24 12:38:21 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.019 seconds.
+2023-11-24 12:38:21 INFO  CSR_AnalysisResults:278 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000550' 
+2023-11-24 12:38:22 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.016 seconds.
+2023-11-24 12:38:22 INFO  CSR_AnalysisResults:278 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000551' 
+2023-11-24 12:38:22 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.024 seconds.
+2023-11-24 12:38:22 INFO  CSR_AnalysisResults:278 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000552' 
+2023-11-24 12:38:22 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.022 seconds.
+2023-11-24 12:38:22 INFO  CSR_AnalysisResults:278 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000553' 
+2023-11-24 12:38:22 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.023 seconds.
+2023-11-24 12:38:22 INFO  CSR_AnalysisResults:278 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000550' 
+2023-11-24 12:38:22 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.022 seconds.
+2023-11-24 12:38:22 INFO  CSR_AnalysisResults:278 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000550' 
+2023-11-24 12:38:22 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.026 seconds.
+2023-11-24 12:38:22 INFO  CSR_AnalysisResults:278 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000551' 
+2023-11-24 12:38:22 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.015 seconds.
+2023-11-24 12:38:22 INFO  CSR_AnalysisResults:278 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000552' 
+2023-11-24 12:38:22 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.02 seconds.
+2023-11-24 12:38:22 INFO  CSR_AnalysisResults:278 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000553' 
+2023-11-24 12:38:22 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.02 seconds.
+2023-11-24 12:38:22 INFO  CSR_AnalysisResults:278 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000550' 
+2023-11-24 12:38:22 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.019 seconds.
+2023-11-24 12:38:22 WARN  CSR_AnalysisResults:280 - Retrieved 'Document number' consists of 2 instead of expected 20 digits!
+2023-11-24 12:38:23 INFO  CSR_AnalysisResults:86 - RETRIEVED UNIQUE 'DOCUMENT NUMBERS before processing': 00000000000000000550
+2023-11-24 12:38:23 INFO  CSR_AnalysisResults:86 - RETRIEVED UNIQUE 'DOCUMENT NUMBERS before processing': 00000000000000000551
+2023-11-24 12:38:23 INFO  CSR_AnalysisResults:86 - RETRIEVED UNIQUE 'DOCUMENT NUMBERS before processing': 00000000000000000552
+2023-11-24 12:38:23 INFO  CSR_AnalysisResults:86 - RETRIEVED UNIQUE 'DOCUMENT NUMBERS before processing': 00000000000000000553
+2023-11-24 12:38:24 INFO  Test_Cases:318 - The number of DELIVERY IDs is THE SAME as the number of DOCUMENT NUMBERS: 4 vs. 4, AS EXPECTED.
+2023-11-24 12:38:25 INFO  CSR_AnalysisResults:349 - The START PROCESSING button on the RESULTS OF CSR ANALYSIS popup was clicked SUCCESSFULLY.
+2023-11-24 12:38:25 INFO  Waitings:40 - TOTAL TIME that the POSTPROCESSING popup web-element was loading: 0.491 seconds.
+2023-11-24 12:38:26 INFO  PostProcessing:771 - PERSONALIZE button was SUCCESSFULLY clicked on the POSTPROCESSING popup.
+2023-11-24 12:38:27 INFO  Waitings:86 - TOTAL TIME that the PERSONALIZATION POPUP page was loading: 1.318 seconds.
+2023-11-24 12:38:28 INFO  PostProcessing:707 - The 'Set to Default' button (on 'PERSONALIZATION' popup for POSTPROCESSING) was detected to be DISABLED by Default.
+2023-11-24 12:38:30 INFO  PostProcessing:635 - The 'SAVE' button (on 'PERSONALIZATION' popup for POSTPROCESSING) was clicked to save Default Settings.
+2023-11-24 12:38:32 INFO  Waitings:86 - TOTAL TIME that the POSTPROCESSING popup after closing PERSONALIZATION popup page was loading: 2.132 seconds.
+2023-11-24 12:38:34 INFO  PostProcessing:229 - Number of columns in the POSTPROCESSING SELECTION table: 4
+2023-11-24 12:38:34 INFO  PostProcessing:265 - Number of rows in the POSTPROCESSING SELECTION table: 2
+2023-11-24 12:38:34 INFO  PostProcessing:282 - The value in 'Postprocessing Action ID' column in row# 1 is equal to: ORDER
+2023-11-24 12:38:34 INFO  PostProcessing:282 - The value in 'Postprocessing Action ID' column in row# 2 is equal to: MAIL
+2023-11-24 12:38:35 INFO  Test_Cases:354 - Both 'ORDER' and 'MAIL' rows were SUCCESSFULLY found as SELECTED in the POSTPROCESSING SELECTION table on the POSTPROCESSING popup.
+2023-11-24 12:38:35 INFO  PostProcessing:170 - EXECUTE POSTPROCESSING button was SUCCESSFULLY clicked on the POSTPROCESSING popup.
+2023-11-24 12:38:44 INFO  Waitings:40 - TOTAL TIME that the E-MAIL SENT SUCCESSFULLY message web-element was loading: 9.172 seconds.
+2023-11-24 12:38:44 INFO  Waitings:40 - TOTAL TIME that the CSR ORDER GENERATION COMPLETED SUCCESSFULLY message web-element was loading: 0.023 seconds.
+2023-11-24 12:38:46 INFO  PostProcessing:105 - CLOSE button was SUCCESSFULLY clicked on the POSTPROCESSING popup.
+2023-11-24 12:38:46 INFO  Waitings:582 - TOTAL TIME that the RESULTS OF CSR ANALYSIS popup was observed for changing its status: 0.042 seconds.
+2023-11-24 12:38:47 INFO  Waitings:86 - TOTAL TIME that the RESULTS OF CSR ANALYSIS popup -> LOG MESSAGES table page was loading: 1.049 seconds.
+2023-11-24 12:38:51 INFO  Waitings:434 - TOTAL TIME that the Updated 'CSR ANALYSIS RESULTS' TABLE after SCROLL-UP page was loading: 0.086 seconds.
+2023-11-24 12:38:54 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'RESULTS LIST' Table web-element was loading: 0.015 seconds.
+2023-11-24 12:38:54 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'RESULTS LIST' Table web-element was loading: 0.041 seconds.
+2023-11-24 12:38:54 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'RESULTS LIST' Table web-element was loading: 0.04 seconds.
+2023-11-24 12:38:55 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'RESULTS LIST' Table web-element was loading: 0.04 seconds.
+2023-11-24 12:38:55 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'RESULTS LIST' Table web-element was loading: 0.04 seconds.
+2023-11-24 12:38:55 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'RESULTS LIST' Table web-element was loading: 0.037 seconds.
+2023-11-24 12:38:55 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'RESULTS LIST' Table web-element was loading: 0.019 seconds.
+2023-11-24 12:38:55 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'RESULTS LIST' Table web-element was loading: 0.032 seconds.
+2023-11-24 12:38:55 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'RESULTS LIST' Table web-element was loading: 0.026 seconds.
+2023-11-24 12:38:55 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'RESULTS LIST' Table web-element was loading: 0.021 seconds.
+2023-11-24 12:38:55 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'RESULTS LIST' Table web-element was loading: 0.022 seconds.
+2023-11-24 12:38:55 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'RESULTS LIST' Table web-element was loading: 0.023 seconds.
+2023-11-24 12:38:58 INFO  ComparePostprocessingResults:875 - RETRIEVED UNIQUE 'MATERIALS after processing': RF02
+2023-11-24 12:38:58 INFO  ComparePostprocessingResults:875 - RETRIEVED UNIQUE 'MATERIALS after processing': RF03
+2023-11-24 12:38:58 INFO  ComparePostprocessingResults:875 - RETRIEVED UNIQUE 'MATERIALS after processing': RF01
+2023-11-24 12:38:58 INFO  ComparePostprocessingResults:875 - RETRIEVED UNIQUE 'MATERIALS after processing': RF04
+2023-11-24 12:39:00 INFO  Waitings:434 - TOTAL TIME that the Updated 'CSR ANALYSIS LOG MESSAGES' TABLE after SCROLL-UP page was loading: 0.09 seconds.
+2023-11-24 12:39:03 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.028 seconds.
+2023-11-24 12:39:03 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.026 seconds.
+2023-11-24 12:39:03 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.047 seconds.
+2023-11-24 12:39:03 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.027 seconds.
+2023-11-24 12:39:03 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.028 seconds.
+2023-11-24 12:39:03 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.028 seconds.
+2023-11-24 12:39:03 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.029 seconds.
+2023-11-24 12:39:03 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.026 seconds.
+2023-11-24 12:39:03 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.026 seconds.
+2023-11-24 12:39:03 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.027 seconds.
+2023-11-24 12:39:03 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.02 seconds.
+2023-11-24 12:39:03 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.023 seconds.
+2023-11-24 12:39:03 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.027 seconds.
+2023-11-24 12:39:04 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.048 seconds.
+2023-11-24 12:39:04 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.029 seconds.
+2023-11-24 12:39:04 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.03 seconds.
+2023-11-24 12:39:04 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.019 seconds.
+2023-11-24 12:39:04 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.03 seconds.
+2023-11-24 12:39:04 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.028 seconds.
+2023-11-24 12:39:04 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.048 seconds.
+2023-11-24 12:39:04 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.03 seconds.
+2023-11-24 12:39:04 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.018 seconds.
+2023-11-24 12:39:04 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.032 seconds.
+2023-11-24 12:39:04 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.036 seconds.
+2023-11-24 12:39:04 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.033 seconds.
+2023-11-24 12:39:04 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.042 seconds.
+2023-11-24 12:39:04 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.035 seconds.
+2023-11-24 12:39:04 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.018 seconds.
+2023-11-24 12:39:05 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.034 seconds.
+2023-11-24 12:39:05 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.027 seconds.
+2023-11-24 12:39:05 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.032 seconds.
+2023-11-24 12:39:05 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.045 seconds.
+2023-11-24 12:39:05 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.033 seconds.
+2023-11-24 12:39:05 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.02 seconds.
+2023-11-24 12:39:05 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.035 seconds.
+2023-11-24 12:39:05 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.034 seconds.
+2023-11-24 12:39:05 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.055 seconds.
+2023-11-24 12:39:05 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.038 seconds.
+2023-11-24 12:39:05 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.029 seconds.
+2023-11-24 12:39:05 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.021 seconds.
+2023-11-24 12:39:05 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.035 seconds.
+2023-11-24 12:39:05 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.036 seconds.
+2023-11-24 12:39:05 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.031 seconds.
+2023-11-24 12:39:05 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.03 seconds.
+2023-11-24 12:39:05 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.031 seconds.
+2023-11-24 12:39:06 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.019 seconds.
+2023-11-24 12:39:06 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.028 seconds.
+2023-11-24 12:39:06 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.024 seconds.
+2023-11-24 12:39:06 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.021 seconds.
+2023-11-24 12:39:06 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.026 seconds.
+2023-11-24 12:39:06 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.025 seconds.
+2023-11-24 12:39:06 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.014 seconds.
+2023-11-24 12:39:06 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 2 instead of expected 20 digits!
+2023-11-24 12:39:07 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.02 seconds.
+2023-11-24 12:39:07 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
+2023-11-24 12:39:07 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.019 seconds.
+2023-11-24 12:39:07 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 2 instead of expected 20 digits!
+2023-11-24 12:39:07 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.021 seconds.
+2023-11-24 12:39:07 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 2 instead of expected 20 digits!
+2023-11-24 12:39:07 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.023 seconds.
+2023-11-24 12:39:07 INFO  ComparePostprocessingResults:293 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000550' 
+2023-11-24 12:39:07 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.024 seconds.
+2023-11-24 12:39:07 INFO  ComparePostprocessingResults:293 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000551' 
+2023-11-24 12:39:07 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.024 seconds.
+2023-11-24 12:39:07 INFO  ComparePostprocessingResults:293 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000552' 
+2023-11-24 12:39:07 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.026 seconds.
+2023-11-24 12:39:07 INFO  ComparePostprocessingResults:293 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000553' 
+2023-11-24 12:39:07 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.025 seconds.
+2023-11-24 12:39:07 INFO  ComparePostprocessingResults:293 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000550' 
+2023-11-24 12:39:07 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.026 seconds.
+2023-11-24 12:39:07 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
+2023-11-24 12:39:07 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.015 seconds.
+2023-11-24 12:39:07 INFO  ComparePostprocessingResults:293 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000550' 
+2023-11-24 12:39:07 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.028 seconds.
+2023-11-24 12:39:07 INFO  ComparePostprocessingResults:293 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000551' 
+2023-11-24 12:39:07 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.028 seconds.
+2023-11-24 12:39:07 INFO  ComparePostprocessingResults:293 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000552' 
+2023-11-24 12:39:07 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.028 seconds.
+2023-11-24 12:39:07 INFO  ComparePostprocessingResults:293 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000553' 
+2023-11-24 12:39:08 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.029 seconds.
+2023-11-24 12:39:08 INFO  ComparePostprocessingResults:293 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000550' 
+2023-11-24 12:39:08 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.027 seconds.
+2023-11-24 12:39:08 INFO  ComparePostprocessingResults:293 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000550' 
+2023-11-24 12:39:08 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.015 seconds.
+2023-11-24 12:39:08 INFO  ComparePostprocessingResults:293 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000551' 
+2023-11-24 12:39:08 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.027 seconds.
+2023-11-24 12:39:08 INFO  ComparePostprocessingResults:293 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000552' 
+2023-11-24 12:39:08 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.027 seconds.
+2023-11-24 12:39:08 INFO  ComparePostprocessingResults:293 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000553' 
+2023-11-24 12:39:08 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.025 seconds.
+2023-11-24 12:39:08 INFO  ComparePostprocessingResults:293 - DOCUMENT NUMBER was successfully retrieved from the LOG table. It is equal to '00000000000000000550' 
+2023-11-24 12:39:08 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.03 seconds.
+2023-11-24 12:39:08 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 2 instead of expected 20 digits!
+2023-11-24 12:39:08 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.013 seconds.
+2023-11-24 12:39:08 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 6 instead of expected 20 digits!
+2023-11-24 12:39:08 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.029 seconds.
+2023-11-24 12:39:08 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 4 instead of expected 20 digits!
+2023-11-24 12:39:08 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.032 seconds.
+2023-11-24 12:39:08 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
+2023-11-24 12:39:08 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.031 seconds.
+2023-11-24 12:39:08 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
+2023-11-24 12:39:08 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.025 seconds.
+2023-11-24 12:39:08 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
+2023-11-24 12:39:09 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.026 seconds.
+2023-11-24 12:39:09 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
+2023-11-24 12:39:09 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.014 seconds.
+2023-11-24 12:39:09 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
+2023-11-24 12:39:09 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.02 seconds.
+2023-11-24 12:39:09 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
+2023-11-24 12:39:09 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.021 seconds.
+2023-11-24 12:39:09 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
+2023-11-24 12:39:09 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.023 seconds.
+2023-11-24 12:39:09 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 4 instead of expected 20 digits!
+2023-11-24 12:39:09 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.026 seconds.
+2023-11-24 12:39:09 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 6 instead of expected 20 digits!
+2023-11-24 12:39:09 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.025 seconds.
+2023-11-24 12:39:09 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 4 instead of expected 20 digits!
+2023-11-24 12:39:09 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.013 seconds.
+2023-11-24 12:39:09 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
+2023-11-24 12:39:09 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.025 seconds.
+2023-11-24 12:39:09 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
+2023-11-24 12:39:09 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.027 seconds.
+2023-11-24 12:39:09 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
+2023-11-24 12:39:09 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.029 seconds.
+2023-11-24 12:39:09 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
+2023-11-24 12:39:09 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.027 seconds.
+2023-11-24 12:39:09 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
+2023-11-24 12:39:10 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.029 seconds.
+2023-11-24 12:39:10 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
+2023-11-24 12:39:10 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.015 seconds.
+2023-11-24 12:39:10 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
+2023-11-24 12:39:10 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.034 seconds.
+2023-11-24 12:39:10 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 4 instead of expected 20 digits!
+2023-11-24 12:39:10 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.029 seconds.
+2023-11-24 12:39:10 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 6 instead of expected 20 digits!
+2023-11-24 12:39:10 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.025 seconds.
+2023-11-24 12:39:10 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 4 instead of expected 20 digits!
+2023-11-24 12:39:10 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.026 seconds.
+2023-11-24 12:39:10 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
+2023-11-24 12:39:10 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.022 seconds.
+2023-11-24 12:39:10 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
+2023-11-24 12:39:10 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.015 seconds.
+2023-11-24 12:39:10 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
+2023-11-24 12:39:10 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.02 seconds.
+2023-11-24 12:39:10 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
+2023-11-24 12:39:10 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.02 seconds.
+2023-11-24 12:39:10 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
+2023-11-24 12:39:10 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.019 seconds.
+2023-11-24 12:39:10 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
+2023-11-24 12:39:10 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.019 seconds.
+2023-11-24 12:39:10 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 0 instead of expected 20 digits!
+2023-11-24 12:39:10 INFO  Waitings:40 - TOTAL TIME that the NEXT DYNAMICALLY LOADED ROW in 'LOG MESSAGES' Table web-element was loading: 0.019 seconds.
+2023-11-24 12:39:11 WARN  ComparePostprocessingResults:295 - Retrieved 'Document number' consists of 4 instead of expected 20 digits!
+2023-11-24 12:39:12 INFO  ComparePostprocessingResults:80 - RETRIEVED UNIQUE 'DOCUMENT NUMBERS after processing': 00000000000000000550
+2023-11-24 12:39:12 INFO  ComparePostprocessingResults:80 - RETRIEVED UNIQUE 'DOCUMENT NUMBERS after processing': 00000000000000000551
+2023-11-24 12:39:12 INFO  ComparePostprocessingResults:80 - RETRIEVED UNIQUE 'DOCUMENT NUMBERS after processing': 00000000000000000552
+2023-11-24 12:39:12 INFO  ComparePostprocessingResults:80 - RETRIEVED UNIQUE 'DOCUMENT NUMBERS after processing': 00000000000000000553
+2023-11-24 12:39:13 INFO  Test_Cases:405 - The number of UNIQUE DELIVERY IDs before and after POSTPROCESSING is THE SAME: 4 vs. 4, AS EXPECTED.
+2023-11-24 12:39:13 INFO  Test_Cases:413 - The number of UNIQUE DOCUMENTS before and after POSTPROCESSING is THE SAME: 4 vs. 4, AS EXPECTED.
+2023-11-24 12:39:13 INFO  Test_Cases:417 - The UNIQUE DOCUMENTS before and after processing are THE SAME.
+2023-11-24 12:39:13 INFO  Test_Cases:450 - The number of UNIQUE DELIVERY IDs is THE SAME as the number of UNIQUE DOCUMENT NUMBERS after POSTPROCESSING: 4 vs. 4, AS EXPECTED.
+2023-11-24 12:39:13 INFO  ComparePostprocessingResults:44 - The CLOSE button on the RESULTS OF CSR ANALYSIS popup was clicked SUCCESSFULLY.

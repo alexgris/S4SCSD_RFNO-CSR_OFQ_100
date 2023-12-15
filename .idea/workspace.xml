@@ -1,8 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ea4489c-98e7-489c-b0a3-62c649744a7a" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="9ea4489c-98e7-489c-b0a3-62c649744a7a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log_files/log4j-application.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log_files/log4j-application.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log_files/log4j-application.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log_files/log4j-application.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log_files_temp/RFNO_CSR-log4j-application.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log_files_temp/RFNO_CSR-log4j-application.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/pages/CSR_AnalysisResults.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pages/CSR_AnalysisResults.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/pages/ComparePostprocessingResults.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pages/ComparePostprocessingResults.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/pages/LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pages/LandingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/pages/Locator_DocCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pages/Locator_DocCompare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/pages/PostProcessing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pages/PostProcessing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/init/settings/SeleniumSetUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/init/settings/SeleniumSetUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/project/Test_Cases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/project/Test_Cases.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jaxb.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log_files/log4j-application.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log_files/log4j-application.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log_files/log4j-application.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log_files/log4j-application.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log_files_temp/RFNO_CSR-log4j-application.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log_files_temp/RFNO_CSR-log4j-application.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-08-14T13-10-02_684.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestNG_Suite1/S4SCSD RFNO - CSR.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestNG_Suite1/S4SCSD RFNO - CSR.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestNG_Suite1/S4SCSD RFNO - CSR.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestNG_Suite1/S4SCSD RFNO - CSR.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-org.project.Test_Cases.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-org.project.Test_Cases.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestNG_Suite1/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestNG_Suite1/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestNG_Suite1/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestNG_Suite1/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestNG_Suite1/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestNG_Suite1/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestNG_Suite1/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestNG_Suite1/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/pages/CSR_AnalysisResults.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/pages/CSR_AnalysisResults.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/pages/ComparePostprocessingResults.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/pages/ComparePostprocessingResults.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/pages/LandingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/pages/LandingPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/pages/Locator_DocCompare.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/pages/Locator_DocCompare.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/pages/PostProcessing.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/pages/PostProcessing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/init/settings/SeleniumSetUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/init/settings/SeleniumSetUp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/project/Test_Cases.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/project/Test_Cases.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,40 +61,31 @@
       </list>
     </option>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="1QdqI6PPvlQa6TWKRUQSTPQ4zow" />
-  <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PAT_DC_VH-LOS_UOS_Reversing-XLO_XUO_OFQ_100/pom.xml" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "last_opened_file_path": "C:/Temp/S4SCSD_RFNO-CSR_OFQ_100/pom.xml"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Temp\PAT_DC_STD-CSN\src\main\resources\" />
       <recent name="C:\Temp\PAT_DC_STD-CSN\src\main\resources\error_images" />
       <recent name="C:\Temp\PAT_DC_STD-CSN\src\test" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="TestNG.S4SCSD_RFNO-CSR_OFQ_100_TestNG">
     <configuration name="S4SCSD_RFNO-CSR_OFQ_100 [clean,test]" type="MavenRunConfiguration" factoryName="Maven">
@@ -82,7 +115,8 @@
       <method v="2" />
     </configuration>
     <configuration name="S4SCSD_RFNO-CSR_OFQ_100_TestNG" type="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <option name="ALTERNATIVE_JRE_PATH" value="12" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/TestNG.xml" />
       <option name="PACKAGE_NAME" value="" />
@@ -104,6 +138,7 @@
       <item itemvalue="TestNG.S4SCSD_RFNO-CSR_OFQ_100_TestNG" />
     </list>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -117,6 +152,33 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/project/Test_Cases.java</url>
+          <line>392</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/project/Test_Cases.java</url>
+          <line>336</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>
       <path>
@@ -127,12 +189,12 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PAT_DC_STD_CSN$Test_Cases.ic" NAME="Test_Cases Coverage Results" MODIFIED="1575030112380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/PAT_DC_STD_Booking_STU_OGQ_100$PAT_DC_STD_Booking_STU_OGQ_100_TestNG.ic" NAME="PAT_DC_STD-Booking-STU_OGQ_100_TestNG Coverage Results" MODIFIED="1583326124099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/PAT_DC_STD_CSN$Test_Scenarios.ic" NAME="Test_Scenarios Coverage Results" MODIFIED="1569502536250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.project.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/PAT_DC_STD_Reversing_XST_OFQ_100$PAT_DC_STD_Reversing_XST_OFQ_100_TestNG.ic" NAME="PAT_DC_STD-Reversing-XST_OFQ_100_TestNG Coverage Results" MODIFIED="1586958955789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/PAT_DC_STD_Booking_STU_OGQ_100$PAT_DC_STD_Booking_STU_OGQ_100_TestNG.ic" NAME="PAT_DC_STD-Booking-STU_OGQ_100_TestNG Coverage Results" MODIFIED="1583326124099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/PAT_DC_STD_CSN$Test_Scenarios.ic" NAME="Test_Scenarios Coverage Results" MODIFIED="1569502536250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/PAT_DC_STD_CSN$Test_Cases.ic" NAME="Test_Cases Coverage Results" MODIFIED="1575030112380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.project.*</FILTER>
     </SUITE>
   </component>

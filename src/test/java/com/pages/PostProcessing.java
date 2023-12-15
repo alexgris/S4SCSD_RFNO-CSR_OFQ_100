@@ -98,29 +98,18 @@ public class PostProcessing extends PageObject {
                 //Exit iframe to have access to the main window's web-elements
                 driver.switchTo().defaultContent();
 
-                WebElement btn_Close = driver.findElement(By.xpath("//div[contains (@id, 'ALL_POPUPS')]/div[contains (@id, 'WDWL2_POP_CONT')]/div[1]/div/div[4]/div/table/tbody/tr/td[3]/descendant::span[contains (text(), 'Close')]/ancestor::div[1]"));
+                WebElement btn_Close = driver.findElement(By.xpath("//div[contains (@id, 'ALL_POPUPS')]/div[contains (@id, 'WDWL2_POP_CONT')]/div[1]/div/div[4]/div/table/tbody/tr/td[3]/descendant::*[contains (text(), 'Close')]/ancestor::div[1]"));
 
                 btn_Close.click();
 
                 logger.info("CLOSE button was SUCCESSFULLY clicked on the POSTPROCESSING popup.");
 
 
-                //wait till "Results List" table gets loaded on the "Results of CSR Analysis" popup
-                // waitTillElementDetected(30, "//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'urPWOuterBorder lsPopupWindow lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[1]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[2]/div/descendant::table[contains (@id, 'mrss-cont-none-content')]/tbody[1]/tr[contains (@class, 'urST4RowFirstVisible')]", "RESULTS OF CSR ANALYSIS popup -> RESULTS LIST table");
-
-                //wait till "Log Messages" table gets loaded on the "Results of CSR Analysis" popup
-               // waitTillElementDetected(30, "//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'urPWOuterBorder lsPopupWindow lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[2]/descendant::tr[contains (@vpm, 'mrss-cont')]/td[2]/div/descendant::table[contains (@id, 'mrss-cont-none-content')]/descendant::tr[contains (@class, 'urST4RowFirstVisible')]", "RESULTS OF CSR ANALYSIS popup -> LOG MESSAGES table");
-                //span[contains (text(), 'Log Messages')]/ancestor::table[contains (@ct, 'STCS')][contains (@shscrollcontentid, 'mrss-hdr-none-content')]/tbody[contains (@id, 'content')][1]/tr[2]/td[2]/div/div[contains (@class, 'urBorderBox')][contains (@bisposelement, 'X')]/table[contains (@id, 'mrss-cont-none-content')]/tbody[" + j + "]/child::tr
-
                 //wait till "Start Processing" button gets disabled on the "Results of CSR Analysis" popup
-                waitTillWebElementChangesClassProperty(30, "//div[contains (text(), 'Result of CSR Analysis')]/ancestor::div[contains (@class, 'urPWOuterBorder lsPopupWindow lsPopupWindow--dialog')][1]/div/div[3]/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[1]/descendant::table[contains (@shscrollcontentid, 'mrss-hdr-none-content')]/thead/tr[2]/descendant::span[contains (text(), 'Start Postprocessing')]/ancestor::div[1]", "lsButton--disabled", "RESULTS OF CSR ANALYSIS popup");
-
-
-                //wait till "Results List" table gets loaded on the "Results of CSR Analysis" popup
-                //waitTillElementDetected(30, "//span[contains (text(), 'Results List')]/ancestor::table[contains (@shscrollcontentid, 'mrss-hdr-none-content')][1]/tbody[1]/tr[contains (@vpm, 'mrss-cont')]/td[2]/div/div[2]/table[contains (@id, 'mrss-cont-none-content')]/tbody[1]/tr[contains (@class, 'urST4RowFirstVisible')]", "RESULTS OF CSR ANALYSIS popup -> RESULTS LIST table");
+                waitTillWebElementChangesClassProperty(30, "//div[contains (@id, 'ALL_POPUPS')]/div[contains (@id, 'WDWL2_POP_CONT')]/div[1]/div/div[3]/table/tbody/tr/td/div/div[1]/descendant::table[contains (@shscrollcontentid, 'mrss-hdr-none-content')]/thead/descendant::*[contains (@title, 'Execute Postprocessing')]", "lsButton--disabled", "RESULTS OF CSR ANALYSIS popup");
 
                 //wait till "Log Messages" table gets loaded on the "Results of CSR Analysis" popup
-                waitTillDescendentElementsAvailable(30, "//span[contains (text(), 'Log Messages')]/ancestor::table[contains (@ct, 'STCS')][contains (@shscrollcontentid, 'mrss-hdr-none-content')]/tbody[contains (@id, 'content')][1]/tr[2]/td[2]/div/div[contains (@class, 'urBorderBox')][contains (@bisposelement, 'X')]/table[contains (@id, 'mrss-cont-none-content')]/tbody[1]/descendant::tr", "RESULTS OF CSR ANALYSIS popup -> LOG MESSAGES table");
+                waitTillDescendentElementsAvailable(30, "//*[contains (text(), 'Log Messages')]/ancestor::table[contains (@ct, 'STCS')][contains (@shscrollcontentid, 'mrss-hdr-none-content')]/tbody[contains (@id, 'content')][1]/tr[2]/td[2]/div/div[contains (@class, 'urBorderBox')][contains (@bisposelement, 'X')]/table[contains (@id, 'mrss-cont-none-content')]/tbody[1]/descendant::tr", "RESULTS OF CSR ANALYSIS popup -> LOG MESSAGES table");
 
 
             }
@@ -170,7 +159,7 @@ public class PostProcessing extends PageObject {
                 //Exit iframe to have access to the main window's web-elements
                 driver.switchTo().defaultContent();
 
-                WebElement btn_ExecutePostprocessing = driver.findElement(By.xpath("//div[contains (@id, 'ALL_POPUPS')]/div[contains (@id, 'WDWL2_POP_CONT')]/div[1]/div/div[3]/table/tbody/tr/td/div/div[1]/descendant::table[contains (@shscrollcontentid, 'mrss-hdr-none-content')]/thead/tr[2]/descendant::div[contains (@title, 'Execute Postprocessing')]"));
+                WebElement btn_ExecutePostprocessing = driver.findElement(By.xpath("//div[contains (@id, 'ALL_POPUPS')]/div[contains (@id, 'WDWL2_POP_CONT')]/div[1]/div/div[3]/table/tbody/tr/td/div/div[1]/descendant::table[contains (@shscrollcontentid, 'mrss-hdr-none-content')]/thead/descendant::*[contains (@title, 'Execute Postprocessing')]"));
 
                 String buttonStatus = btn_ExecutePostprocessing.getAttribute("class");
                 System.out.println("Class name for 'Execute Postprocessing' button is: " + buttonStatus);
@@ -180,8 +169,8 @@ public class PostProcessing extends PageObject {
 
                     logger.info("EXECUTE POSTPROCESSING button was SUCCESSFULLY clicked on the POSTPROCESSING popup.");
 
-                    waitTillElementDetected(5, "//div[contains (@id, 'ALL_POPUPS')]/div[contains (@id, 'WDWL2_POP_CONT')]/div[1]/div/div[3]/descendant::table[contains (@class, 'urMatrixLayout urHtmlTableReset')]/tbody/tr[1]/td/descendant::span[contains (text(), 'E-mail sent successfully')]", "E-MAIL SENT SUCCESSFULLY message");
-                    waitTillElementDetected(5, "//div[contains (@id, 'ALL_POPUPS')]/div[contains (@id, 'WDWL2_POP_CONT')]/div[1]/div/div[3]/descendant::table[contains (@class, 'urMatrixLayout urHtmlTableReset')]/tbody/tr[1]/td/descendant::span[contains (text(), 'CSR order generation completed successfully')]", "CSR ORDER GENERATION COMPLETED SUCCESSFULLY message");
+                    waitTillElementDetected(5, "//div[contains (@id, 'ALL_POPUPS')]/div[contains (@id, 'WDWL2_POP_CONT')]/div[1]/div/div[3]/descendant::table[contains (@class, 'urMatrixLayout urHtmlTableReset')]/tbody/tr[1]/td/descendant::*[contains (text(), 'E-mail sent successfully')]", "E-MAIL SENT SUCCESSFULLY message");
+                    waitTillElementDetected(5, "//div[contains (@id, 'ALL_POPUPS')]/div[contains (@id, 'WDWL2_POP_CONT')]/div[1]/div/div[3]/descendant::table[contains (@class, 'urMatrixLayout urHtmlTableReset')]/tbody/tr[1]/td/descendant::*[contains (text(), 'CSR order generation completed successfully')]", "CSR ORDER GENERATION COMPLETED SUCCESSFULLY message");
 
                 } else {
                     logger.warn("The 'EXECUTE POSTPROCESSING' button was detected to be DISABLED by DEFAULT. No postprocessing is possible!");
@@ -636,7 +625,7 @@ public class PostProcessing extends PageObject {
                 //Exit iframe to have access to the main window's web-elements
                // driver.switchTo().defaultContent();
 
-                WebElement btn_SavePersonalization = driver.findElement(By.xpath("//div[contains (@id, 'ALL_POPUPS')]/div[contains (@id, 'WDWL3_POP_CONT')]/descendant::div[contains (@class, 'lsTwhlFooter lsTbarLarge urPWFooterBottomLine')]/descendant::span[contains (text(), 'Save')]/ancestor::div[1]"));
+                WebElement btn_SavePersonalization = driver.findElement(By.xpath("//div[contains (@id, 'ALL_POPUPS')]/div[contains (@id, 'WDWL3_POP_CONT')]/descendant::div[contains (@class, 'lsTwhlFooter lsTbarLarge urPWFooterBottomLine')]/descendant::*[contains (text(), 'Save')]/ancestor::div[1]"));
 
 
                 //action.moveToElement(input_Width_1).click().build().perform();
@@ -690,7 +679,7 @@ public class PostProcessing extends PageObject {
                 //Exit iframe to have access to the main window's web-elements
                 //driver.switchTo().defaultContent();
 
-                WebElement btn_SetToDefault_Persnlzd_Postprocessing = driver.findElement(By.xpath("//div[contains (@id, 'ALL_POPUPS')]/div[contains (@id, 'WDWL3_POP_CONT')]/div[1]/div/div[4]/descendant::span[contains (text(), 'Reset to Default')]/ancestor::div[1]"));
+                WebElement btn_SetToDefault_Persnlzd_Postprocessing = driver.findElement(By.xpath("//div[contains (@id, 'ALL_POPUPS')]/div[contains (@id, 'WDWL3_POP_CONT')]/div[1]/div/div[4]/descendant::*[contains (text(), 'Reset to Default')]/ancestor::div[1]"));
 
                 String btn_Status = btn_SetToDefault_Persnlzd_Postprocessing.getAttribute("class");
                 System.out.println("Class value for 'Set to Default' button: " + btn_Status);
@@ -775,13 +764,13 @@ public class PostProcessing extends PageObject {
 
             if (Test_Cases.conf_SystemClient.equals("OFQ_100")) {
 
-                WebElement btn_Personalize_Postprocessing = driver.findElement(By.xpath("//div[contains (@id, 'ALL_POPUPS')]/div[contains (@id, 'WDWL2_POP_CONT')]/div[1]/div/div[3]/table/tbody/tr/td/div/div[1]/descendant::table[contains (@shscrollcontentid, 'mrss-hdr-none-content')]/thead/tr[2]/descendant::div[contains (@title, 'Settings')]"));
+                WebElement btn_Personalize_Postprocessing = driver.findElement(By.xpath("//div[contains (@id, 'ALL_POPUPS')]/div[contains (@id, 'WDWL2_POP_CONT')]/div[1]/div/div[3]/table/tbody/tr/td/div/div[1]/descendant::table[contains (@shscrollcontentid, 'mrss-hdr-none-content')]/thead/descendant::div[contains (@title, 'Settings')]"));
 
                 btn_Personalize_Postprocessing.click();
 
                 logger.info("PERSONALIZE button was SUCCESSFULLY clicked on the POSTPROCESSING popup.");
 
-                waitTillDescendentElementsAvailable(5, "//div[contains (@id, 'ALL_POPUPS')]/div[contains (@id, 'WDWL3_POP_CONT')]/div[1]/descendant::span[contains (text(), 'Displayed Columns')]/ancestor::table[contains (@class, 'urSTCS urST3WhlBrd urST3WhlNoTit urST5SelColUiGeneric urHtmlTableReset')]/tbody[contains (@id, 'content')]/tr[2]/td[2]/div/div[2]/table/tbody/descendant::tr", "PERSONALIZATION POPUP");
+                waitTillDescendentElementsAvailable(5, "//div[contains (@id, 'ALL_POPUPS')]/div[contains (@id, 'WDWL3_POP_CONT')]/div[1]/descendant::*[contains (text(), 'Displayed Columns')]/ancestor::table[contains (@class, 'urST5SelColUiGeneric lsSapTable')]/tbody[contains (@id, 'content')]/tr[2]/td[2]/div/div[2]/table/tbody/descendant::tr", "PERSONALIZATION POPUP");
 
 
             }

@@ -200,7 +200,7 @@ public class LandingPage extends PageObject {
         try {
             if (Test_Cases.conf_SystemClient.equals("OFQ_100")) {
 
-                WebElement btn_SavePersonalization = driver.findElement(By.xpath("//div[contains (text(), 'Settings')]/ancestor::div[contains (@class, 'urPWOuterBorder lsPopupWindow lsPopupWindow--dialog')][contains (@ct, 'PW')]/div/div[4][contains (@class, 'sapContrast sapContrastPlus lsTwhlFooter lsTbarLarge urPWFooterBottomLine')]/descendant::span[text()='Save']/ancestor::div[1]"));
+                WebElement btn_SavePersonalization = driver.findElement(By.xpath("//div[contains (text(), 'Settings')]/ancestor::div[contains (@class, 'lsPopupWindow--dialog')][contains (@ct, 'PW')]/div/div[4][contains (@class, 'urPWFooterBottomLine')]/descendant::*[text()='Save']/ancestor::div[1]"));
 
                 //action.moveToElement(input_Width_1).click().build().perform();
                 js.executeScript("arguments[0].click();", btn_SavePersonalization);
@@ -1682,12 +1682,12 @@ public class LandingPage extends PageObject {
 
             if (Test_Cases.conf_SystemClient.equals("OFQ_100")) {
 
-                WebElement dropdown_Page = driver.findElement(By.xpath("//div[contains (@id, 'sapwd_main_window_root_')]/div[1]/table/tbody/tr[1]/descendant::div[contains (@class, 'lsToolbar--standards-rightItems')]/descendant::input[contains (@value, 'CSR')]"));
+                WebElement dropdown_Page = driver.findElement(By.xpath("//div[contains (@id, 'sapwd_main_window_root')]/div[1]/table/tbody/tr[1]/descendant::div[contains (@class, 'lsToolbar--standards-rightItems')]/descendant::input[contains (@value, 'CSR')]"));
 
                 //js.executeScript("arguments[0].click();", btn_Personalize_DC);
                 dropdown_Page.click();
 
-                explicitWaitsUntilElementPresent(5, "//div[contains (@id, 'pageContentViewAssoc')]/descendant::*[contains (text(), 'CSR Locations')]", "'PAGE:' dropdown");
+                explicitWaitsUntilElementPresent(5, "//div[contains (@id, 'pageContentViewAssoc')]/descendant::div[contains (@ct, 'LIB_P')][contains (@style, 'display: block')]/descendant::*[contains (text(), 'CSR Locations')]", "'PAGE:' dropdown");
                 //Thread.sleep(1000);
 
                 logger.info("The 'PAGE:' droplist in the 'CSR GROUPS' toolbar was SUCCESSFULLY opened!");
@@ -2326,7 +2326,7 @@ public class LandingPage extends PageObject {
     public void check_GroupSettingsPanel_Expanded() {
 
         try {
-            WebElement toggler_GroupSettingsPanel = driver.findElement(By.ByXPath.xpath("//div[contains (@id, 'sapwd_main_window_root')]/descendant::table[contains (@class, 'lsPnstTabWhl lsPanel')][contains (@ct, 'PST')]/tbody/tr[1]/td[2]/span"));
+            WebElement toggler_GroupSettingsPanel = driver.findElement(By.ByXPath.xpath("//div[contains (@id, 'sapwd_main_window_root')]/descendant::table[contains (@class, 'lsPnstTabWhl lsControl')][contains (@ct, 'PST')]/tbody/tr[1]/td[2]/*[contains (@class, 'lsPnstTglIcon')]"));
 
             String displayStatus = toggler_GroupSettingsPanel.getAttribute("title");
             System.out.println("The toggler on the 'Group Settings' has the status of '"+displayStatus.toUpperCase()+"'.");
@@ -2344,7 +2344,7 @@ public class LandingPage extends PageObject {
                 logger.info("The GROUP SETTINGS panel was SUCCESSFULLY EXPANDED.");
 
                 //wait till "Group Settings" gets loaded
-                waitTillDescendentElementsAvailable(30, "//div[contains (@id, 'sapwd_main_window_root')]/descendant::table[contains (@class, 'lsPnstTabWhl lsPanel')][contains (@ct, 'PST')]/tbody/tr[2]/descendant::span[contains (text(), 'CSR Group ID')]", "Expanded GROUP SETTINGS panel");
+                waitTillDescendentElementsAvailable(30, "//div[contains (@id, 'sapwd_main_window_root')]/descendant::table[contains (@class, 'lsPnstTabWhl lsControl')][contains (@ct, 'PST')]/tbody/tr[2]/descendant::*[contains (text(), 'CSR Group ID')]", "Expanded GROUP SETTINGS panel");
 
             }
 
@@ -2357,7 +2357,7 @@ public class LandingPage extends PageObject {
     public void check_GroupSettingsTab_Selected() {
 
         try {
-            WebElement tab_GroupSettings = driver.findElement(By.ByXPath.xpath("//div[contains (@id, 'sapwd_main_window_root')]/descendant::table[contains (@class, 'lsPnstTabWhl lsPanel')][contains (@ct, 'PST')]/tbody/tr[1]/td[3]/descendant::div[contains (text(), 'Group Settings')]/ancestor::div[1]"));
+            WebElement tab_GroupSettings = driver.findElement(By.ByXPath.xpath("//div[contains (@id, 'sapwd_main_window_root')]/descendant::table[contains (@class, 'lsPnstTabWhl lsControl')][contains (@ct, 'PST')]/tbody/tr[1]/td[3]/descendant::div[contains (text(), 'Group Settings')]/ancestor::div[1]"));
 
             String displayStatus = tab_GroupSettings.getAttribute("class");
             System.out.println("The class of the 'Group Settings' tab is equal to '"+displayStatus.toUpperCase()+"'.");
@@ -2375,7 +2375,7 @@ public class LandingPage extends PageObject {
                 logger.info("The GROUP SETTINGS tab was SUCCESSFULLY SELECTED.");
 
                 //wait till "Group Settings" tab gets selected
-                waitTillElementDetectedByProperty(15, "//div[contains (@id, 'sapwd_main_window_root')]/descendant::table[contains (@class, 'lsPnstTabWhl lsPanel')][contains (@ct, 'PST')]/tbody/tr[1]/td[3]/descendant::div[contains (text(), 'Group Settings')]/ancestor::div[1]", "class", "Sel", "Selected 'GROUP SETTINGS' tab");
+                waitTillElementDetectedByProperty(15, "//div[contains (@id, 'sapwd_main_window_root')]/descendant::table[contains (@class, 'lsPnstTabWhl lsControl')][contains (@ct, 'PST')]/tbody/tr[1]/td[3]/descendant::div[contains (text(), 'Group Settings')]/ancestor::div[1]", "class", "Sel", "Selected 'GROUP SETTINGS' tab");
             }
 
         } catch (Exception e) {
